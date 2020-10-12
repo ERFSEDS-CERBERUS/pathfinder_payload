@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 5
+Sheet 1 6
 Title ""
 Date ""
 Rev ""
@@ -87,4 +87,10 @@ Wire Notes Line
 	650  1700 650  550 
 Text Notes 1450 1800 0    50   ~ 0
 CLOCKS\n
+$Sheet
+S 750  2100 1100 450 
+U 5F852726
+F0 "USB_UART" 50
+F1 "USB_UART.sch" 50
+$EndSheet
 $EndSCHEMATC
