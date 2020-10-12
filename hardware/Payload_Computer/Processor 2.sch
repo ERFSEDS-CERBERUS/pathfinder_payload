@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 3
+Sheet 3 6
 Title ""
 Date ""
 Rev ""
@@ -15,22 +15,80 @@ Comment4 ""
 $EndDescr
 $Comp
 L dk_Embedded-Microcontrollers:ATMEGA328P-AU U?
-U 1 1 5F847650
-P 5900 3800
-F 0 "U?" H 6228 3903 60  0000 L CNN
-F 1 "ATMEGA328P-AU" H 6228 3797 60  0000 L CNN
-F 2 "digikey-footprints:TQFP-32_7x7mm" H 6100 4000 60  0001 L CNN
-F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en608326" H 6100 4100 60  0001 L CNN
-F 4 "ATMEGA328P-AU-ND" H 6100 4200 60  0001 L CNN "Digi-Key_PN"
-F 5 "ATMEGA328P-AU" H 6100 4300 60  0001 L CNN "MPN"
-F 6 "Integrated Circuits (ICs)" H 6100 4400 60  0001 L CNN "Category"
-F 7 "Embedded - Microcontrollers" H 6100 4500 60  0001 L CNN "Family"
-F 8 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en608326" H 6100 4600 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/microchip-technology/ATMEGA328P-AU/ATMEGA328P-AU-ND/1832260" H 6100 4700 60  0001 L CNN "DK_Detail_Page"
-F 10 "IC MCU 8BIT 32KB FLASH 32TQFP" H 6100 4800 60  0001 L CNN "Description"
-F 11 "Microchip Technology" H 6100 4900 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 6100 5000 60  0001 L CNN "Status"
-	1    5900 3800
+U 1 1 5F84BDD2
+P 6100 3950
+F 0 "U?" H 6428 4053 60  0000 L CNN
+F 1 "ATMEGA328P-AU" H 6428 3947 60  0000 L CNN
+F 2 "digikey-footprints:TQFP-32_7x7mm" H 6300 4150 60  0001 L CNN
+F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en608326" H 6300 4250 60  0001 L CNN
+F 4 "ATMEGA328P-AU-ND" H 6300 4350 60  0001 L CNN "Digi-Key_PN"
+F 5 "ATMEGA328P-AU" H 6300 4450 60  0001 L CNN "MPN"
+F 6 "Integrated Circuits (ICs)" H 6300 4550 60  0001 L CNN "Category"
+F 7 "Embedded - Microcontrollers" H 6300 4650 60  0001 L CNN "Family"
+F 8 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en608326" H 6300 4750 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/microchip-technology/ATMEGA328P-AU/ATMEGA328P-AU-ND/1832260" H 6300 4850 60  0001 L CNN "DK_Detail_Page"
+F 10 "IC MCU 8BIT 32KB FLASH 32TQFP" H 6300 4950 60  0001 L CNN "Description"
+F 11 "Microchip Technology" H 6300 5050 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 6300 5150 60  0001 L CNN "Status"
+	1    6100 3950
 	1    0    0    -1  
 $EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5F84BDD8
+P 6300 2050
+F 0 "#PWR?" H 6300 1900 50  0001 C CNN
+F 1 "+5V" H 6315 2223 50  0000 C CNN
+F 2 "" H 6300 2050 50  0001 C CNN
+F 3 "" H 6300 2050 50  0001 C CNN
+	1    6300 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6300 2350 6300 2200
+Wire Wire Line
+	6200 2350 6200 2200
+Wire Wire Line
+	6200 2200 6300 2200
+Connection ~ 6300 2200
+Wire Wire Line
+	6300 2200 6300 2050
+Wire Wire Line
+	6100 2350 6100 2200
+Wire Wire Line
+	6100 2200 6200 2200
+Connection ~ 6200 2200
+$Comp
+L power:GND #PWR?
+U 1 1 5F84BDE6
+P 6300 5750
+F 0 "#PWR?" H 6300 5500 50  0001 C CNN
+F 1 "GND" H 6305 5577 50  0000 C CNN
+F 2 "" H 6300 5750 50  0001 C CNN
+F 3 "" H 6300 5750 50  0001 C CNN
+	1    6300 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6300 5450 6300 5600
+Wire Wire Line
+	6200 5450 6200 5600
+Wire Wire Line
+	6200 5600 6300 5600
+Connection ~ 6300 5600
+Wire Wire Line
+	6300 5600 6300 5750
+Wire Wire Line
+	6100 5450 6100 5600
+Wire Wire Line
+	6100 5600 6200 5600
+Connection ~ 6200 5600
+Text HLabel 5300 2850 0    50   Input ~ 0
+XTAL1
+Text HLabel 5300 2950 0    50   Input ~ 0
+XTAL2
+Wire Wire Line
+	5300 2850 5600 2850
+Wire Wire Line
+	5300 2950 5600 2950
 $EndSCHEMATC
