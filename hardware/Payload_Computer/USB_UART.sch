@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 7
+Sheet 6 9
 Title ""
 Date ""
 Rev ""
@@ -204,12 +204,10 @@ Text Label 6050 2700 0    50   ~ 0
 D+
 Text Label 6050 2800 0    50   ~ 0
 D-
-Text HLabel 5800 3100 0    50   Input ~ 0
+Text HLabel 5250 3100 0    50   Input ~ 0
 RXD
-Text HLabel 8000 3100 2    50   Input ~ 0
+Text HLabel 9000 2750 2    50   Input ~ 0
 TXD
-Wire Wire Line
-	7450 3100 8000 3100
 Wire Wire Line
 	6350 3100 5800 3100
 NoConn ~ 6350 2900
@@ -358,4 +356,36 @@ Connection ~ 5050 4500
 NoConn ~ 6350 3600
 NoConn ~ 6350 3700
 NoConn ~ 6350 3800
+$Comp
+L Device:R_US R?
+U 1 1 5F8E2EB9
+P 5650 3100
+F 0 "R?" V 5445 3100 50  0000 C CNN
+F 1 "1K" V 5536 3100 50  0000 C CNN
+F 2 "" V 5690 3090 50  0001 C CNN
+F 3 "~" H 5650 3100 50  0001 C CNN
+	1    5650 3100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5500 3100 5250 3100
+Wire Wire Line
+	8300 3100 8300 2750
+Wire Wire Line
+	8300 2750 8450 2750
+Wire Wire Line
+	7450 3100 8300 3100
+$Comp
+L Device:R_US R?
+U 1 1 5F8E4F1C
+P 8600 2750
+F 0 "R?" V 8395 2750 50  0000 C CNN
+F 1 "1K" V 8486 2750 50  0000 C CNN
+F 2 "" V 8640 2740 50  0001 C CNN
+F 3 "~" H 8600 2750 50  0001 C CNN
+	1    8600 2750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8750 2750 9000 2750
 $EndSCHEMATC

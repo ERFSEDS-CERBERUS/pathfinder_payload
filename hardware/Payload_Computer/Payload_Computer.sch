@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 7
+Sheet 1 9
 Title ""
 Date ""
 Rev ""
@@ -103,13 +103,13 @@ F3 "TXD" I R 1850 2200 50
 F4 "RESET" I R 1850 2400 50 
 $EndSheet
 $Sheet
-S 750  2850 1100 400 
+S 750  2700 1100 400 
 U 5F86D5A7
 F0 "USB_UART2" 50
 F1 "USB_UART2.sch" 50
-F2 "RXD" I R 1850 3050 50 
-F3 "TXD" I R 1850 2950 50 
-F4 "RESET" I R 1850 3150 50 
+F2 "RXD" I R 1850 2900 50 
+F3 "TXD" I R 1850 2800 50 
+F4 "RESET" I R 1850 3000 50 
 $EndSheet
 Wire Wire Line
 	1850 2200 2600 2200
@@ -118,11 +118,11 @@ Wire Wire Line
 Wire Wire Line
 	1850 2400 2600 2400
 Wire Wire Line
-	1850 2950 2600 2950
+	1850 2800 2600 2800
 Wire Wire Line
-	1850 3050 2600 3050
+	1850 2900 2600 2900
 Wire Wire Line
-	1850 3150 2600 3150
+	1850 3000 2600 3000
 Wire Wire Line
 	4750 1050 3900 1050
 Wire Wire Line
@@ -141,7 +141,7 @@ Text Label 4150 3550 0    50   ~ 0
 RESET_2
 Text Label 2050 2400 0    50   ~ 0
 RESET_1
-Text Label 2050 3150 0    50   ~ 0
+Text Label 2050 3000 0    50   ~ 0
 RESET_2
 Text Label 2050 2200 0    50   ~ 0
 TXD_1
@@ -151,4 +151,40 @@ Text Label 4150 1050 0    50   ~ 0
 RXD_1
 Text Label 4150 1150 0    50   ~ 0
 TXD_1
+Text Label 2050 2800 0    50   ~ 0
+TXD_2
+Text Label 2050 2900 0    50   ~ 0
+RXD_2
+Text Label 4150 3350 0    50   ~ 0
+RXD_2
+Text Label 4150 3450 0    50   ~ 0
+TXD_2
+Wire Notes Line
+	650  1950 2650 1950
+Wire Notes Line
+	2650 1950 2650 3250
+Wire Notes Line
+	2650 3250 650  3250
+Wire Notes Line
+	650  3250 650  1950
+Text Notes 1500 3350 0    50   ~ 0
+FTDI\n
+$Sheet
+S 750  3600 1100 250 
+U 5F8EA469
+F0 "RESET" 50
+F1 "RESET.sch" 50
+F2 "RESET" I R 1850 3700 50 
+$EndSheet
+$Sheet
+S 750  4050 1100 250 
+U 5F8EA4F9
+F0 "RESET_2" 50
+F1 "RESET_2.sch" 50
+F2 "RESET_2" I R 1850 4150 50 
+$EndSheet
+Wire Wire Line
+	1850 3700 2600 3700
+Wire Wire Line
+	1850 4150 2600 4150
 $EndSCHEMATC
