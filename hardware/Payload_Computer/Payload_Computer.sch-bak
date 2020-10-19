@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 9
+Sheet 1 11
 Title ""
 Date ""
 Rev ""
@@ -182,5 +182,35 @@ U 5F8EA4F9
 F0 "RESET_2" 50
 F1 "RESET_2.sch" 50
 F2 "RESET_2" I R 1850 4150 50 
+$EndSheet
+Wire Wire Line
+	1850 3700 2600 3700
+Wire Wire Line
+	1850 4150 2600 4150
+Text Label 2050 3700 0    50   ~ 0
+RESET_1
+Text Label 2050 4150 0    50   ~ 0
+RESET_2
+Wire Notes Line
+	650  3450 2650 3450
+Wire Notes Line
+	2650 3450 2650 4450
+Wire Notes Line
+	2650 4450 650  4450
+Wire Notes Line
+	650  4450 650  3450
+Text Notes 1500 4550 0    50   ~ 0
+RESET\n
+$Sheet
+S 750  4850 1100 350 
+U 5F8F06D7
+F0 "ICSP" 50
+F1 "ICSP.sch" 50
+$EndSheet
+$Sheet
+S 750  5400 1100 350 
+U 5F8F071C
+F0 "ICSP_2" 50
+F1 "ICSP_2.sch" 50
 $EndSheet
 $EndSCHEMATC

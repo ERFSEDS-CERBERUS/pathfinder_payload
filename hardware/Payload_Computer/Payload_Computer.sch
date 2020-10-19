@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 9
+Sheet 1 11
 Title ""
 Date ""
 Rev ""
@@ -187,4 +187,70 @@ Wire Wire Line
 	1850 3700 2600 3700
 Wire Wire Line
 	1850 4150 2600 4150
+Text Label 2050 3700 0    50   ~ 0
+RESET_1
+Text Label 2050 4150 0    50   ~ 0
+RESET_2
+Wire Notes Line
+	650  3450 2650 3450
+Wire Notes Line
+	2650 3450 2650 4450
+Wire Notes Line
+	2650 4450 650  4450
+Wire Notes Line
+	650  4450 650  3450
+Text Notes 1500 4550 0    50   ~ 0
+RESET\n
+$Sheet
+S 750  4750 1100 500 
+U 5F8F06D7
+F0 "ICSP" 50
+F1 "ICSP.sch" 50
+F2 "MOSI_1" I R 1850 4850 50 
+F3 "MISO_1" I R 1850 4950 50 
+F4 "SCK_1" I R 1850 5050 50 
+F5 "RESET_1" I R 1850 5150 50 
+$EndSheet
+$Sheet
+S 750  5450 1100 500 
+U 5F8F071C
+F0 "ICSP_2" 50
+F1 "ICSP_2.sch" 50
+F2 "MOSI_2" I R 1850 5550 50 
+F3 "MISO_2" I R 1850 5650 50 
+F4 "SCK_2" I R 1850 5750 50 
+F5 "RESET_2" I R 1850 5850 50 
+$EndSheet
+Wire Wire Line
+	1850 4850 2600 4850
+Wire Wire Line
+	1850 4950 2600 4950
+Wire Wire Line
+	1850 5050 2600 5050
+Wire Wire Line
+	1850 5150 2600 5150
+Wire Wire Line
+	1850 5550 2600 5550
+Wire Wire Line
+	1850 5650 2600 5650
+Wire Wire Line
+	1850 5750 2600 5750
+Wire Wire Line
+	1850 5850 2600 5850
+Text Label 2100 4850 0    50   ~ 0
+MOSI_1
+Text Label 2100 4950 0    50   ~ 0
+MISO_1
+Text Label 2100 5050 0    50   ~ 0
+SCK_1
+Text Label 2100 5150 0    50   ~ 0
+RESET_1
+Text Label 2100 5550 0    50   ~ 0
+MOSI_2
+Text Label 2100 5650 0    50   ~ 0
+MISO_2
+Text Label 2100 5750 0    50   ~ 0
+SCK_2
+Text Label 2100 5850 0    50   ~ 0
+RESET_2
 $EndSCHEMATC
