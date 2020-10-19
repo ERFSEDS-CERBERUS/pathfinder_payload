@@ -91,4 +91,16 @@ Wire Wire Line
 	5750 2300 6050 2300
 Wire Wire Line
 	5750 2400 6050 2400
+Text HLabel 5750 4200 0    50   Input ~ 0
+TXD
+Text HLabel 5750 4100 0    50   Input ~ 0
+RXD
+Wire Wire Line
+	5750 4100 6050 4100
+Wire Wire Line
+	5750 4200 6050 4200
+Text HLabel 5750 4000 0    50   Input ~ 0
+RESET
+Wire Wire Line
+	5750 4000 6050 4000
 $EndSCHEMATC

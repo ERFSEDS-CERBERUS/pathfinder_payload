@@ -20,6 +20,9 @@ F0 "Processor 1" 50
 F1 "Processor 1.sch" 50
 F2 "XTAL1" I L 4750 800 50 
 F3 "XTAL2" I L 4750 900 50 
+F4 "TXD" I L 4750 1050 50 
+F5 "RXD" I L 4750 1150 50 
+F6 "RESET" I L 4750 1250 50 
 $EndSheet
 $Sheet
 S 4750 3000 2150 1200
@@ -28,6 +31,9 @@ F0 "Processor2" 50
 F1 "Processor 2.sch" 50
 F2 "XTAL1" I L 4750 3100 50 
 F3 "XTAL2" I L 4750 3200 50 
+F4 "TXD" I L 4750 3350 50 
+F5 "RXD" I L 4750 3450 50 
+F6 "RESET" I L 4750 3550 50 
 $EndSheet
 $Sheet
 S 750  700  1100 300 
@@ -105,4 +111,44 @@ F2 "RXD" I R 1850 3050 50
 F3 "TXD" I R 1850 2950 50 
 F4 "RESET" I R 1850 3150 50 
 $EndSheet
+Wire Wire Line
+	1850 2200 2600 2200
+Wire Wire Line
+	1850 2300 2600 2300
+Wire Wire Line
+	1850 2400 2600 2400
+Wire Wire Line
+	1850 2950 2600 2950
+Wire Wire Line
+	1850 3050 2600 3050
+Wire Wire Line
+	1850 3150 2600 3150
+Wire Wire Line
+	4750 1050 3900 1050
+Wire Wire Line
+	4750 1150 3900 1150
+Wire Wire Line
+	4750 1250 3900 1250
+Wire Wire Line
+	4750 3350 3900 3350
+Wire Wire Line
+	4750 3450 3900 3450
+Wire Wire Line
+	4750 3550 3900 3550
+Text Label 4150 1250 0    50   ~ 0
+RESET_1
+Text Label 4150 3550 0    50   ~ 0
+RESET_2
+Text Label 2050 2400 0    50   ~ 0
+RESET_1
+Text Label 2050 3150 0    50   ~ 0
+RESET_2
+Text Label 2050 2200 0    50   ~ 0
+TXD_1
+Text Label 2050 2300 0    50   ~ 0
+RXD_1
+Text Label 4150 1050 0    50   ~ 0
+RXD_1
+Text Label 4150 1150 0    50   ~ 0
+TXD_1
 $EndSCHEMATC
