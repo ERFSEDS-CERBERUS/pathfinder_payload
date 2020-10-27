@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 11
+Sheet 2 13
 Title ""
 Date ""
 Rev ""
@@ -34,10 +34,10 @@ F 12 "Active" H 6750 4600 60  0001 L CNN "Status"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR0101
 U 1 1 5F848BC8
 P 6750 1500
-F 0 "#PWR?" H 6750 1350 50  0001 C CNN
+F 0 "#PWR0101" H 6750 1350 50  0001 C CNN
 F 1 "+5V" H 6765 1673 50  0000 C CNN
 F 2 "" H 6750 1500 50  0001 C CNN
 F 3 "" H 6750 1500 50  0001 C CNN
@@ -59,10 +59,10 @@ Wire Wire Line
 	6550 1650 6650 1650
 Connection ~ 6650 1650
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0102
 U 1 1 5F84953E
 P 6750 5200
-F 0 "#PWR?" H 6750 4950 50  0001 C CNN
+F 0 "#PWR0102" H 6750 4950 50  0001 C CNN
 F 1 "GND" H 6755 5027 50  0000 C CNN
 F 2 "" H 6750 5200 50  0001 C CNN
 F 3 "" H 6750 5200 50  0001 C CNN
@@ -103,4 +103,16 @@ Text HLabel 5750 4000 0    50   Input ~ 0
 RESET
 Wire Wire Line
 	5750 4000 6050 4000
+Text HLabel 5750 3100 0    50   Input ~ 0
+MOSI
+Text HLabel 5750 3200 0    50   Input ~ 0
+MISO
+Text HLabel 5750 3300 0    50   Input ~ 0
+SCK
+Wire Wire Line
+	5750 3100 6050 3100
+Wire Wire Line
+	6050 3200 5750 3200
+Wire Wire Line
+	5750 3300 6050 3300
 $EndSCHEMATC

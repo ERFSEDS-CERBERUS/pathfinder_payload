@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 11
+Sheet 1 13
 Title ""
 Date ""
 Rev ""
@@ -23,6 +23,9 @@ F3 "XTAL2" I L 4750 900 50
 F4 "TXD" I L 4750 1050 50 
 F5 "RXD" I L 4750 1150 50 
 F6 "RESET" I L 4750 1250 50 
+F7 "MOSI" I L 4750 1400 50 
+F8 "MISO" I L 4750 1500 50 
+F9 "SCK" I L 4750 1600 50 
 $EndSheet
 $Sheet
 S 4750 3000 2150 1200
@@ -34,6 +37,9 @@ F3 "XTAL2" I L 4750 3200 50
 F4 "TXD" I L 4750 3350 50 
 F5 "RXD" I L 4750 3450 50 
 F6 "RESET" I L 4750 3550 50 
+F7 "MOSI" I L 4750 3700 50 
+F8 "MISO" I L 4750 3800 50 
+F9 "SCK" I L 4750 3900 50 
 $EndSheet
 $Sheet
 S 750  700  1100 300 
@@ -253,4 +259,60 @@ Text Label 2100 5750 0    50   ~ 0
 SCK_2
 Text Label 2100 5850 0    50   ~ 0
 RESET_2
+Wire Notes Line
+	650  4600 2650 4600
+Wire Notes Line
+	2650 4600 2650 6100
+Wire Notes Line
+	2650 6100 650  6100
+Wire Notes Line
+	650  6100 650  4600
+Text Notes 1150 6200 0    50   ~ 0
+PROGRAMMING HEADERS\n
+Wire Wire Line
+	4750 3700 3900 3700
+Wire Wire Line
+	4750 3800 3900 3800
+Wire Wire Line
+	4750 3900 3900 3900
+Wire Wire Line
+	4750 1400 3900 1400
+Wire Wire Line
+	4750 1500 3900 1500
+Wire Wire Line
+	4750 1600 3900 1600
+Text Label 4150 1400 0    50   ~ 0
+MOSI_1
+Text Label 4150 1500 0    50   ~ 0
+MISO_1
+Text Label 4150 1600 0    50   ~ 0
+SCK_1
+Text Label 4150 3700 0    50   ~ 0
+MOSI_2
+Text Label 4150 3800 0    50   ~ 0
+MISO_2
+Text Label 4150 3900 0    50   ~ 0
+SCK_2
+$Sheet
+S 750  6450 1100 300 
+U 5F99411A
+F0 "FILTERING 1" 50
+F1 "FILTERING 1.sch" 50
+$EndSheet
+$Sheet
+S 750  6950 1100 300 
+U 5F99419C
+F0 "FILTERING 2" 50
+F1 "FILTERING 2.sch" 50
+$EndSheet
+Wire Notes Line
+	650  6300 2650 6300
+Wire Notes Line
+	2650 6300 2650 7400
+Wire Notes Line
+	2650 7400 650  7400
+Wire Notes Line
+	650  7400 650  6300
+Text Notes 1350 7500 0    50   ~ 0
+MCU FILTERING
 $EndSCHEMATC
