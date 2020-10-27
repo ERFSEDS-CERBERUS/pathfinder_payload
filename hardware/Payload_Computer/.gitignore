@@ -22,4 +22,5 @@
 #Gerber Directory(generate your own dammit)
 Gerber
 
-
+#Dont save backup schematic
+*.sch-bak
