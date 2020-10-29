@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 13
+Sheet 1 14
 Title ""
 Date ""
 Rev ""
@@ -315,4 +315,10 @@ Wire Notes Line
 	650  7400 650  6300
 Text Notes 1350 7500 0    50   ~ 0
 MCU FILTERING
+$Sheet
+S 8100 700  2100 1250
+U 5F99D46A
+F0 "IMU" 50
+F1 "IMU.sch" 50
+$EndSheet
 $EndSCHEMATC
