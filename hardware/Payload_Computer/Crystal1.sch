@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 17
+Sheet 4 15
 Title ""
 Date ""
 Rev ""
@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Device:Crystal_GND24 Y?
+L Device:Crystal_GND24 Y1
 U 1 1 5F84C384
 P 6150 3500
-F 0 "Y?" H 6100 4800 50  0000 L CNN
+F 0 "Y1" H 6100 4800 50  0000 L CNN
 F 1 "Crystal_GND24" H 5850 4700 50  0000 L CNN
 F 2 "" H 6150 3500 50  0001 C CNN
 F 3 "~" H 6150 3500 50  0001 C CNN
@@ -47,10 +47,10 @@ F 3 "" H 6150 3050 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C2
 U 1 1 5F84D9F5
 P 6700 3650
-F 0 "C?" H 6815 3696 50  0000 L CNN
+F 0 "C2" H 6815 3696 50  0000 L CNN
 F 1 "C" H 6815 3605 50  0000 L CNN
 F 2 "" H 6738 3500 50  0001 C CNN
 F 3 "~" H 6700 3650 50  0001 C CNN
@@ -58,10 +58,10 @@ F 3 "~" H 6700 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C1
 U 1 1 5F84E009
 P 5550 3650
-F 0 "C?" H 5665 3696 50  0000 L CNN
+F 0 "C1" H 5665 3696 50  0000 L CNN
 F 1 "C" H 5665 3605 50  0000 L CNN
 F 2 "" H 5588 3500 50  0001 C CNN
 F 3 "~" H 5550 3650 50  0001 C CNN
