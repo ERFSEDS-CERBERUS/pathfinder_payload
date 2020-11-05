@@ -24,3 +24,6 @@ Gerber
 
 #Dont save backup schematic
 *.sch-bak
+
+#Dont Save Lib files
+*.lib
