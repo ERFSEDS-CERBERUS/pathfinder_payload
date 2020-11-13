@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 15
+Sheet 6 14
 Title ""
 Date ""
 Rev ""
@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L dk_Pushbutton-Switches:GPTS203211B S?
+L Symbols:GPTS203211B S?
 U 1 1 5F8EA95B
 P 5350 3650
 F 0 "S?" H 5350 4000 50  0000 C CNN
@@ -34,10 +34,10 @@ F 12 "Active" H 5550 4850 60  0001 L CNN "Status"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0125
+L power:GND #PWR?
 U 1 1 5F8EBFC9
 P 4750 3850
-F 0 "#PWR0125" H 4750 3600 50  0001 C CNN
+F 0 "#PWR?" H 4750 3600 50  0001 C CNN
 F 1 "GND" H 4755 3677 50  0000 C CNN
 F 2 "" H 4750 3850 50  0001 C CNN
 F 3 "" H 4750 3850 50  0001 C CNN
@@ -45,10 +45,10 @@ F 3 "" H 4750 3850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_US R9
+L Device:R_US R?
 U 1 1 5F8EC38D
 P 5900 3350
-F 0 "R9" H 5968 3396 50  0000 L CNN
+F 0 "R?" H 5968 3396 50  0000 L CNN
 F 1 "1K" H 5968 3305 50  0000 L CNN
 F 2 "" V 5940 3340 50  0001 C CNN
 F 3 "~" H 5900 3350 50  0001 C CNN
@@ -56,10 +56,10 @@ F 3 "~" H 5900 3350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR0126
+L power:+5V #PWR?
 U 1 1 5F8ECA21
 P 5900 3000
-F 0 "#PWR0126" H 5900 2850 50  0001 C CNN
+F 0 "#PWR?" H 5900 2850 50  0001 C CNN
 F 1 "+5V" H 5915 3173 50  0000 C CNN
 F 2 "" H 5900 3000 50  0001 C CNN
 F 3 "" H 5900 3000 50  0001 C CNN

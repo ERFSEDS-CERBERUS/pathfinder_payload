@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 9 15
+Sheet 7 14
 Title ""
 Date ""
 Rev ""
@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L dk_Pushbutton-Switches:GPTS203211B S?
+L Symbols:GPTS203211B S?
 U 1 1 5F8EEC81
 P 5800 3850
 AR Path="/5F8EA469/5F8EEC81" Ref="S?"  Part="1" 
@@ -46,41 +46,12 @@ F 3 "" H 5200 4050 50  0001 C CNN
 	1    5200 4050
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:R_US R10
-U 1 1 5F8EEC8D
-P 6350 3550
-F 0 "R10" H 6418 3596 50  0000 L CNN
-F 1 "1K" H 6418 3505 50  0000 L CNN
-F 2 "" V 6390 3540 50  0001 C CNN
-F 3 "~" H 6350 3550 50  0001 C CNN
-	1    6350 3550
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR0128
-U 1 1 5F8EEC93
-P 6350 3200
-F 0 "#PWR0128" H 6350 3050 50  0001 C CNN
-F 1 "+5V" H 6365 3373 50  0000 C CNN
-F 2 "" H 6350 3200 50  0001 C CNN
-F 3 "" H 6350 3200 50  0001 C CNN
-	1    6350 3200
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5200 4050 5200 3850
 Wire Wire Line
 	5200 3850 5600 3850
-Wire Wire Line
-	6000 3850 6350 3850
-Wire Wire Line
-	6350 3850 6350 3700
-Wire Wire Line
-	6350 3400 6350 3200
 Text HLabel 6750 3850 2    50   Input ~ 0
 RESET_2
 Wire Wire Line
-	6750 3850 6350 3850
-Connection ~ 6350 3850
+	6000 3850 6750 3850
 $EndSCHEMATC

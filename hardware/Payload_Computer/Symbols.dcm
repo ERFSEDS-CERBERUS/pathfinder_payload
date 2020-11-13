@@ -1,0 +1,57 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ATMEGA328P-AU
+D IC MCU 8BIT 32KB FLASH 32TQFP
+K ATMEGA328P-AU-ND AVR® ATmega
+F http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en608326
+$ENDCMP
+#
+$CMP Crystal_GND24
+D Four pin crystal, GND on pins 2 and 4
+K quartz ceramic resonator oscillator
+F ~
+$ENDCMP
+#
+$CMP FT232RL-REEL
+D IC USB FS SERIAL UART 28-SSOP
+K 768-1007-1-ND USBmadeEZ-UART
+F https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT232R.pdf
+$ENDCMP
+#
+$CMP GPTS203211B
+D SWITCH PUSHBUTTON SPST 1A 30V
+K CW181-ND GPTS
+F http://switches-connectors-custom.cwind.com/Asset/GPTS203211BR2.pdf
+$ENDCMP
+#
+$CMP MKL02Z16VFG4
+D Kinetis KL02 series, 48-MHz/32-bit ARM Cortex-M0+, 16 kB flash, 2 kB SRAM, QFN-16
+K Kinetis KL02 ARM Cortex M0+
+F http://www.nxp.com/docs/en/data-sheet/KL02P32M48SF0.pdf
+$ENDCMP
+#
+$CMP MKL02Z32VFG4
+D Kinetis KL02 series, 48-MHz/32-bit ARM Cortex-M0+, 32 kB flash, 4 kB SRAM, QFN-16
+K Kinetis KL02 ARM Cortex M0+
+F http://www.nxp.com/docs/en/data-sheet/KL02P32M48SF0.pdf
+$ENDCMP
+#
+$CMP MKL02Z8VFG4
+D Kinetis KL02 series, 48-MHz/32-bit ARM Cortex-M0+, 8 kB flash, 1 kB SRAM, QFN-16
+K Kinetis KL02 ARM Cortex M0+
+F http://www.nxp.com/docs/en/data-sheet/KL02P32M48SF0.pdf
+$ENDCMP
+#
+$CMP USB_B_Micro
+D USB Micro Type B connector
+K connector USB micro
+F ~
+$ENDCMP
+#
+$CMP USB_B_Mini
+D USB Mini Type B connector
+K connector USB mini
+F ~
+$ENDCMP
+#
+#End Doc Library

@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 15
+Sheet 2 14
 Title ""
 Date ""
 Rev ""
@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L dk_Embedded-Microcontrollers:ATMEGA328P-AU U?
+L Symbols:ATMEGA328P-AU U?
 U 1 1 5F845D97
 P 6550 3400
 F 0 "U?" H 6878 3503 60  0000 L CNN

@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 15
+Sheet 1 14
 Title ""
 Date ""
 Rev ""
@@ -26,20 +26,6 @@ F6 "RESET" I L 4750 1250 50
 F7 "MOSI" I L 4750 1400 50 
 F8 "MISO" I L 4750 1500 50 
 F9 "SCK" I L 4750 1600 50 
-$EndSheet
-$Sheet
-S 4750 3000 2150 1200
-U 5F84585C
-F0 "Processor2" 50
-F1 "Processor 2.sch" 50
-F2 "XTAL1" I L 4750 3100 50 
-F3 "XTAL2" I L 4750 3200 50 
-F4 "TXD" I L 4750 3350 50 
-F5 "RXD" I L 4750 3450 50 
-F6 "RESET" I L 4750 3550 50 
-F7 "MOSI" I L 4750 3700 50 
-F8 "MISO" I L 4750 3800 50 
-F9 "SCK" I L 4750 3900 50 
 $EndSheet
 $Sheet
 S 750  700  1100 300 
@@ -108,15 +94,6 @@ F2 "RXD" I R 1850 2300 50
 F3 "TXD" I R 1850 2200 50 
 F4 "RESET" I R 1850 2400 50 
 $EndSheet
-$Sheet
-S 750  2700 1100 400 
-U 5F86D5A7
-F0 "USB_UART2" 50
-F1 "USB_UART2.sch" 50
-F2 "RXD" I R 1850 2900 50 
-F3 "TXD" I R 1850 2800 50 
-F4 "RESET" I R 1850 3000 50 
-$EndSheet
 Wire Wire Line
 	1850 2200 2600 2200
 Wire Wire Line
@@ -124,31 +101,15 @@ Wire Wire Line
 Wire Wire Line
 	1850 2400 2600 2400
 Wire Wire Line
-	1850 2800 2600 2800
-Wire Wire Line
-	1850 2900 2600 2900
-Wire Wire Line
-	1850 3000 2600 3000
-Wire Wire Line
 	4750 1050 3900 1050
 Wire Wire Line
 	4750 1150 3900 1150
 Wire Wire Line
 	4750 1250 3900 1250
-Wire Wire Line
-	4750 3350 3900 3350
-Wire Wire Line
-	4750 3450 3900 3450
-Wire Wire Line
-	4750 3550 3900 3550
 Text Label 4150 1250 0    50   ~ 0
 RESET_1
-Text Label 4150 3550 0    50   ~ 0
-RESET_2
 Text Label 2050 2400 0    50   ~ 0
 RESET_1
-Text Label 2050 3000 0    50   ~ 0
-RESET_2
 Text Label 2050 2200 0    50   ~ 0
 TXD_1
 Text Label 2050 2300 0    50   ~ 0
@@ -157,84 +118,52 @@ Text Label 4150 1050 0    50   ~ 0
 RXD_1
 Text Label 4150 1150 0    50   ~ 0
 TXD_1
-Text Label 2050 2800 0    50   ~ 0
-TXD_2
-Text Label 2050 2900 0    50   ~ 0
-RXD_2
-Text Label 4150 3350 0    50   ~ 0
-RXD_2
-Text Label 4150 3450 0    50   ~ 0
-TXD_2
 Wire Notes Line
 	650  1950 2650 1950
-Wire Notes Line
-	2650 1950 2650 3250
-Wire Notes Line
-	2650 3250 650  3250
-Wire Notes Line
-	650  3250 650  1950
-Text Notes 1500 3350 0    50   ~ 0
+Text Notes 1500 3900 0    50   ~ 0
 FTDI\n
 $Sheet
-S 750  3600 1100 250 
+S 750  4250 1100 250 
 U 5F8EA469
 F0 "RESET" 50
 F1 "RESET.sch" 50
-F2 "RESET" I R 1850 3700 50 
+F2 "RESET" I R 1850 4350 50 
 $EndSheet
 $Sheet
-S 750  4050 1100 250 
+S 750  4700 1100 250 
 U 5F8EA4F9
 F0 "RESET_2" 50
 F1 "RESET_2.sch" 50
-F2 "RESET_2" I R 1850 4150 50 
+F2 "RESET_2" I R 1850 4800 50 
 $EndSheet
 Wire Wire Line
-	1850 3700 2600 3700
+	1850 4350 2600 4350
 Wire Wire Line
-	1850 4150 2600 4150
-Text Label 2050 3700 0    50   ~ 0
+	1850 4800 2600 4800
+Text Label 2050 4350 0    50   ~ 0
 RESET_1
-Text Label 2050 4150 0    50   ~ 0
+Text Label 2050 4800 0    50   ~ 0
 RESET_2
 Wire Notes Line
-	650  3450 2650 3450
+	650  4100 2650 4100
 Wire Notes Line
-	2650 3450 2650 4450
+	2650 4100 2650 5100
 Wire Notes Line
-	2650 4450 650  4450
+	2650 5100 650  5100
 Wire Notes Line
-	650  4450 650  3450
-Text Notes 1500 4550 0    50   ~ 0
+	650  5100 650  4100
+Text Notes 1500 5200 0    50   ~ 0
 RESET\n
 $Sheet
-S 750  4750 1100 500 
+S 750  5450 1100 500 
 U 5F8F06D7
 F0 "ICSP" 50
 F1 "ICSP.sch" 50
-F2 "MOSI_1" I R 1850 4850 50 
-F3 "MISO_1" I R 1850 4950 50 
-F4 "SCK_1" I R 1850 5050 50 
-F5 "RESET_1" I R 1850 5150 50 
+F2 "MOSI_1" I R 1850 5550 50 
+F3 "MISO_1" I R 1850 5650 50 
+F4 "SCK_1" I R 1850 5750 50 
+F5 "RESET_1" I R 1850 5850 50 
 $EndSheet
-$Sheet
-S 750  5450 1100 500 
-U 5F8F071C
-F0 "ICSP_2" 50
-F1 "ICSP_2.sch" 50
-F2 "MOSI_2" I R 1850 5550 50 
-F3 "MISO_2" I R 1850 5650 50 
-F4 "SCK_2" I R 1850 5750 50 
-F5 "RESET_2" I R 1850 5850 50 
-$EndSheet
-Wire Wire Line
-	1850 4850 2600 4850
-Wire Wire Line
-	1850 4950 2600 4950
-Wire Wire Line
-	1850 5050 2600 5050
-Wire Wire Line
-	1850 5150 2600 5150
 Wire Wire Line
 	1850 5550 2600 5550
 Wire Wire Line
@@ -243,38 +172,26 @@ Wire Wire Line
 	1850 5750 2600 5750
 Wire Wire Line
 	1850 5850 2600 5850
-Text Label 2100 4850 0    50   ~ 0
-MOSI_1
-Text Label 2100 4950 0    50   ~ 0
-MISO_1
-Text Label 2100 5050 0    50   ~ 0
-SCK_1
-Text Label 2100 5150 0    50   ~ 0
-RESET_1
 Text Label 2100 5550 0    50   ~ 0
-MOSI_2
+MOSI_1
 Text Label 2100 5650 0    50   ~ 0
-MISO_2
+MISO_1
 Text Label 2100 5750 0    50   ~ 0
-SCK_2
+SCK_1
 Text Label 2100 5850 0    50   ~ 0
-RESET_2
+RESET_1
 Wire Notes Line
-	650  4600 2650 4600
-Wire Notes Line
-	2650 4600 2650 6100
+	650  5300 2650 5300
 Wire Notes Line
 	2650 6100 650  6100
-Wire Notes Line
-	650  6100 650  4600
 Text Notes 1150 6200 0    50   ~ 0
 PROGRAMMING HEADERS\n
 Wire Wire Line
+	4750 3500 3900 3500
+Wire Wire Line
+	4750 3600 3900 3600
+Wire Wire Line
 	4750 3700 3900 3700
-Wire Wire Line
-	4750 3800 3900 3800
-Wire Wire Line
-	4750 3900 3900 3900
 Wire Wire Line
 	4750 1400 3900 1400
 Wire Wire Line
@@ -287,11 +204,11 @@ Text Label 4150 1500 0    50   ~ 0
 MISO_1
 Text Label 4150 1600 0    50   ~ 0
 SCK_1
-Text Label 4150 3700 0    50   ~ 0
+Text Label 4150 3500 0    50   ~ 0
 MOSI_2
-Text Label 4150 3800 0    50   ~ 0
+Text Label 4150 3600 0    50   ~ 0
 MISO_2
-Text Label 4150 3900 0    50   ~ 0
+Text Label 4150 3700 0    50   ~ 0
 SCK_2
 $Sheet
 S 750  6450 1100 300 
@@ -387,4 +304,106 @@ F5 "COM0_5V" I R 4900 6900 50
 F6 "COM1_5V" I R 4900 7050 50 
 F7 "RST_5V" I R 4900 7200 50 
 $EndSheet
+Wire Notes Line
+	2650 6100 2650 5300
+Wire Notes Line
+	650  6100 650  5300
+$Sheet
+S 750  2750 1100 900 
+U 5F86D5A7
+F0 "USB_TEENSY" 50
+F1 "USB_TEENSY.sch" 50
+F2 "D+" I R 1850 2850 50 
+F3 "D-" I R 1850 2950 50 
+F4 "ID" I R 1850 3050 50 
+F5 "RESET" I R 1850 3150 50 
+F6 "PTA3" I R 1850 3450 50 
+F7 "BUTTON" I R 1850 3550 50 
+F8 "PTA2" I R 1850 3350 50 
+F9 "PTA0" I R 1850 3250 50 
+$EndSheet
+Wire Notes Line
+	2650 3800 650  3800
+Wire Notes Line
+	2650 1950 2650 3800
+Wire Notes Line
+	650  1950 650  3800
+Wire Wire Line
+	1850 2850 2600 2850
+Wire Wire Line
+	1850 2950 2600 2950
+Wire Wire Line
+	1850 3050 2600 3050
+Wire Wire Line
+	1850 3150 2600 3150
+Wire Wire Line
+	1850 3250 2600 3250
+Wire Wire Line
+	1850 3350 2600 3350
+Wire Wire Line
+	1850 3450 2600 3450
+Wire Wire Line
+	1850 3550 2600 3550
+Text Label 2200 2850 0    50   ~ 0
+D+
+Text Label 2200 2950 0    50   ~ 0
+D-
+Text Label 2200 3050 0    50   ~ 0
+ID
+Text Label 2200 3250 0    50   ~ 0
+PTA0
+Text Label 2200 3350 0    50   ~ 0
+PTA2
+Text Label 2200 3450 0    50   ~ 0
+PTA3
+Text Label 2200 3550 0    50   ~ 0
+RESET_2
+Text Label 2000 3150 0    50   ~ 0
+RESET_TEENSY
+$Sheet
+S 4750 3000 2100 1600
+U 5F84585C
+F0 "Processor2" 50
+F1 "Processor 2.sch" 50
+F2 "XTAL1" I L 4750 3100 50 
+F3 "XTAL2" I L 4750 3200 50 
+F4 "RESET" I L 4750 3350 50 
+F5 "MOSI" I L 4750 3500 50 
+F6 "MISO" I L 4750 3600 50 
+F7 "SCK" I L 4750 3700 50 
+F8 "D+" I L 4750 3850 50 
+F9 "D-" I L 4750 3950 50 
+F10 "PTA0" I L 4750 4100 50 
+F11 "PTA1" I L 4750 4200 50 
+F12 "PTA2" I L 4750 4300 50 
+F13 "PTA3" I L 4750 4400 50 
+$EndSheet
+Wire Wire Line
+	4750 3350 3900 3350
+Text Label 4050 3350 0    50   ~ 0
+RESET_TEENSY
+Wire Wire Line
+	4750 3850 3900 3850
+Wire Wire Line
+	4750 3950 3900 3950
+Wire Wire Line
+	4750 4100 3900 4100
+Text Label 4250 3850 0    50   ~ 0
+D+
+Text Label 4250 3950 0    50   ~ 0
+D-
+Wire Wire Line
+	4750 4200 3900 4200
+Wire Wire Line
+	4750 4300 3900 4300
+Wire Wire Line
+	4750 4400 3900 4400
+Text Label 4200 4100 0    50   ~ 0
+PTA0
+Text Label 4200 4200 0    50   ~ 0
+PTA1
+Text Label 4200 4300 0    50   ~ 0
+PTA2
+Text Label 4200 4400 0    50   ~ 0
+PTA3
 $EndSCHEMATC
