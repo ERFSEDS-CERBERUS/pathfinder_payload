@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 14
+Sheet 6 13
 Title ""
 Date ""
 Rev ""
@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Symbols:GPTS203211B S?
+L Payload_Computer-rescue:GPTS203211B-Symbols S?
 U 1 1 5F8EA95B
 P 5350 3650
 F 0 "S?" H 5350 4000 50  0000 C CNN

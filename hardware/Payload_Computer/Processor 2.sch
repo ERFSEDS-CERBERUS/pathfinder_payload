@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 14 14
+Sheet 14 13
 Title ""
 Date ""
 Rev ""
@@ -38,7 +38,7 @@ Wire Wire Line
 Wire Wire Line
 	2150 3150 2450 3150
 $Comp
-L Symbols:MK20DX256VLH7 U?
+L Payload_Computer-rescue:MK20DX256VLH7-Symbols U?
 U 1 1 5FAEECCE
 P 3550 3850
 F 0 "U?" H 3600 6217 50  0000 C CNN
@@ -246,4 +246,12 @@ F 3 "" H 6850 1800 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6850 2000 6850 1800
+Text HLabel 2150 4750 0    50   Input ~ 0
+SCL
+Text HLabel 2150 4850 0    50   Input ~ 0
+SDA
+Wire Wire Line
+	2150 4750 2450 4750
+Wire Wire Line
+	2450 4850 2150 4850
 $EndSCHEMATC

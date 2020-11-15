@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 13 14
+Sheet 13 13
 Title ""
 Date ""
 Rev ""
@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Symbols:USB_B_Micro J2
+L Payload_Computer-rescue:USB_B_Micro-Symbols J2
 U 1 1 5F87457D
 P 3150 3500
 F 0 "J2" H 3207 3967 50  0000 C CNN
@@ -151,7 +151,7 @@ Wire Wire Line
 Text HLabel 4900 3700 2    50   Input ~ 0
 ID
 $Comp
-L Symbols:MKL02Z32VFG4 U?
+L Payload_Computer-rescue:MKL02Z32VFG4-Symbols U?
 U 1 1 5FB00371
 P 8350 3200
 F 0 "U?" H 8350 5400 50  0000 C CNN

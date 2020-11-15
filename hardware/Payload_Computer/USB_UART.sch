@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 14
+Sheet 5 13
 Title ""
 Date ""
 Rev ""
@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Symbols:FT232RL-REEL U?
+L Payload_Computer-rescue:FT232RL-REEL-Symbols U?
 U 1 1 5F852DA8
 P 7050 3000
 F 0 "U?" H 6850 4400 60  0000 C CNN
@@ -34,7 +34,7 @@ F 12 "Active" H 7250 4200 60  0001 L CNN "Status"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Symbols:USB_B_Micro J?
+L Payload_Computer-rescue:USB_B_Micro-Symbols J?
 U 1 1 5F855AAE
 P 2050 3250
 F 0 "J?" H 2107 3717 50  0000 C CNN

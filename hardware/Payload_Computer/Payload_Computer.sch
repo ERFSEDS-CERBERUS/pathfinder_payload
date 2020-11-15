@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 14
+Sheet 1 13
 Title ""
 Date ""
 Rev ""
@@ -243,18 +243,6 @@ F4 "COM0_3V" I L 8100 1300 50
 F5 "COM1_3V" I L 8100 1500 50 
 $EndSheet
 Wire Wire Line
-	4900 6450 5500 6450
-Wire Wire Line
-	4900 6600 5500 6600
-Wire Wire Line
-	4900 6750 5500 6750
-Wire Wire Line
-	4900 6900 5500 6900
-Wire Wire Line
-	4900 7050 5500 7050
-Wire Wire Line
-	4900 7200 5500 7200
-Wire Wire Line
 	8100 900  7500 900 
 Wire Wire Line
 	8100 1100 7500 1100
@@ -270,40 +258,6 @@ Text Label 7650 1300 0    50   ~ 0
 COM0_3V
 Text Label 7650 1500 0    50   ~ 0
 COM1_3V
-Text Label 5000 6450 0    50   ~ 0
-COM0_3V
-Text Label 5000 6600 0    50   ~ 0
-COM1_3V
-Text Label 5000 6750 0    50   ~ 0
-RESET_3V
-Text Label 5000 6900 0    50   ~ 0
-COM0_5V
-Text Label 5000 7050 0    50   ~ 0
-COM1_5V
-Text Label 5000 7200 0    50   ~ 0
-RST_5V
-Wire Notes Line
-	5550 6300 5550 7400
-Wire Notes Line
-	5550 7400 2850 7400
-Wire Notes Line
-	2850 7400 2850 6300
-Wire Notes Line
-	2850 6300 5550 6300
-Text Notes 3850 7500 0    50   ~ 0
-LOGIC LEVEL SHIFTER\n
-$Sheet
-S 2900 6400 2000 850 
-U 5FA082D1
-F0 "LOGIC LVL SHIFTER" 50
-F1 "LOGIC LVL SHIFTER.sch" 50
-F2 "RESET_3V" I R 4900 6750 50 
-F3 "COM0_3V" I R 4900 6450 50 
-F4 "COM1_3V" I R 4900 6600 50 
-F5 "COM0_5V" I R 4900 6900 50 
-F6 "COM1_5V" I R 4900 7050 50 
-F7 "RST_5V" I R 4900 7200 50 
-$EndSheet
 Wire Notes Line
 	2650 6100 2650 5300
 Wire Notes Line
@@ -377,6 +331,8 @@ F10 "PTA0" I L 4750 4100 50
 F11 "PTA1" I L 4750 4200 50 
 F12 "PTA2" I L 4750 4300 50 
 F13 "PTA3" I L 4750 4400 50 
+F14 "SCL" I R 6850 3100 50 
+F15 "SDA" I R 6850 3200 50 
 $EndSheet
 Wire Wire Line
 	4750 3350 3900 3350
@@ -406,4 +362,12 @@ Text Label 4200 4300 0    50   ~ 0
 PTA2
 Text Label 4200 4400 0    50   ~ 0
 PTA3
+Wire Wire Line
+	6850 3100 7550 3100
+Wire Wire Line
+	6850 3200 7550 3200
+Text Label 7150 3100 0    50   ~ 0
+SCL
+Text Label 7150 3200 0    50   ~ 0
+SDA
 $EndSCHEMATC
