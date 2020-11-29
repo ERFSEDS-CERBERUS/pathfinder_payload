@@ -20,7 +20,7 @@ P 5950 3850
 F 0 "U?" H 6250 4600 50  0000 C CNN
 F 1 "BNO055" H 6250 4500 50  0000 C CNN
 F 2 "Package_LGA:LGA-28_5.2x3.8mm_P0.5mm" H 6200 3200 50  0001 L CNN
-F 3 "https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST_BNO055_DS000_14.pdf" H 5950 4050 50  0001 C CNN
+F 3 "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bno055-ds000.pdf" H 5950 4050 50  0001 C CNN
 	1    5950 3850
 	1    0    0    -1  
 $EndComp
