@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Payload_Computer-rescue:ATMEGA328P-AU-Symbols U?
+L Symbols:ATMEGA328P-AU U?
 U 1 1 5F845D97
 P 6550 3400
 F 0 "U?" H 6878 3503 60  0000 L CNN

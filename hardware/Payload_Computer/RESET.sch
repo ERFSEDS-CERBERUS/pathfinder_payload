@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Payload_Computer-rescue:GPTS203211B-Symbols S?
+L Symbols:GPTS203211B S?
 U 1 1 5F8EA95B
 P 5350 3650
 F 0 "S?" H 5350 4000 50  0000 C CNN

@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Payload_Computer-rescue:FT232RL-REEL-Symbols U?
+L Symbols:FT232RL-REEL U?
 U 1 1 5F852DA8
 P 7050 3000
 F 0 "U?" H 6850 4400 60  0000 C CNN
@@ -34,7 +34,7 @@ F 12 "Active" H 7250 4200 60  0001 L CNN "Status"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Payload_Computer-rescue:USB_B_Micro-Symbols J?
+L Symbols:USB_B_Micro J?
 U 1 1 5F855AAE
 P 2050 3250
 F 0 "J?" H 2107 3717 50  0000 C CNN

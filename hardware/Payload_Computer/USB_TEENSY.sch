@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Payload_Computer-rescue:USB_B_Micro-Symbols J2
+L Symbols:USB_B_Micro J2
 U 1 1 5F87457D
 P 3150 3500
 F 0 "J2" H 3207 3967 50  0000 C CNN
@@ -140,7 +140,7 @@ Wire Wire Line
 Text HLabel 4900 3700 2    50   Input ~ 0
 ID
 $Comp
-L Payload_Computer-rescue:MKL02Z32VFG4-Symbols U?
+L Symbols:MKL02Z32VFG4 U?
 U 1 1 5FB00371
 P 8350 3200
 F 0 "U?" H 8350 5400 50  0000 C CNN

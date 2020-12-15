@@ -38,7 +38,7 @@ Wire Wire Line
 Wire Wire Line
 	2150 3150 2450 3150
 $Comp
-L Payload_Computer-rescue:MK20DX256VLH7-Symbols U?
+L Symbols:MK20DX256VLH7 U?
 U 1 1 5FAEECCE
 P 3550 3850
 F 0 "U?" H 3600 6217 50  0000 C CNN
