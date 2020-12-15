@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 21
+Sheet 4 24
 Title ""
 Date ""
 Rev ""
@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Payload_Computer-rescue:Crystal_GND24-Symbols Y2
+L Symbols:Crystal_GND24 Y2
 U 1 1 5F851061
 P 6050 3900
 F 0 "Y2" H 6000 5200 50  0000 L CNN
