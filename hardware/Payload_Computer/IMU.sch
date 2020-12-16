@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 11 24
+Sheet 11 27
 Title ""
 Date ""
 Rev ""
@@ -258,9 +258,9 @@ RESET_3V
 Text HLabel 5150 3550 0    50   Input ~ 0
 INT_3V
 Text HLabel 5150 4050 0    50   Input ~ 0
-COM0_3V
+SCL
 Text HLabel 5150 4150 0    50   Input ~ 0
-COM1_3V
+SDA
 $Comp
 L power:GND #PWR?
 U 1 1 5FA09E61
