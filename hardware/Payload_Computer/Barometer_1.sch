@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 26 27
+Sheet 27 27
 Title ""
 Date ""
 Rev ""
@@ -13,28 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L Payload_Computer-cache:+3.3V #PWR?
-U 1 1 5FDAA6E0
-P 5710 2860
-F 0 "#PWR?" H 5710 2710 50  0001 C CNN
-F 1 "+3.3V" H 5740 3000 50  0000 C CNN
-F 2 "" H 5710 2860 50  0001 C CNN
-F 3 "" H 5710 2860 50  0001 C CNN
-	1    5710 2860
-	1    0    0    -1  
-$EndComp
-$Comp
-L Payload_Computer-cache:+3.3V #PWR?
-U 1 1 5FDAA855
-P 5510 2860
-F 0 "#PWR?" H 5510 2710 50  0001 C CNN
-F 1 "+3.3V" H 5470 3000 50  0000 C CNN
-F 2 "" H 5510 2860 50  0001 C CNN
-F 3 "" H 5510 2860 50  0001 C CNN
-	1    5510 2860
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5FDABC48
@@ -110,11 +88,11 @@ Connection ~ 5610 4550
 Wire Wire Line
 	5610 4550 5710 4550
 Text HLabel 6530 3520 2    50   Input ~ 0
-SDO
+MISO
 Text HLabel 6530 3720 2    50   Input ~ 0
 SCK
 Text HLabel 6530 3920 2    50   Input ~ 0
-SDI
+MOSI
 Text HLabel 6530 4120 2    50   Input ~ 0
 CSB
 $Comp
@@ -126,6 +104,28 @@ F 1 "BME280" H 5240 3370 50  0000 C CNN
 F 2 "Package_LGA:Bosch_LGA-8_2.5x2.5mm_P0.65mm_ClockwisePinNumbering" H 7110 3370 50  0001 C CNN
 F 3 "https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BME280-DS002.pdf" H 5610 3620 50  0001 C CNN
 	1    5610 3820
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5FE2FC03
+P 5510 2860
+F 0 "#PWR?" H 5510 2710 50  0001 C CNN
+F 1 "+3.3V" H 5525 3033 50  0000 C CNN
+F 2 "" H 5510 2860 50  0001 C CNN
+F 3 "" H 5510 2860 50  0001 C CNN
+	1    5510 2860
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5FE30EDD
+P 5710 2860
+F 0 "#PWR?" H 5710 2710 50  0001 C CNN
+F 1 "+3.3V" H 5725 3033 50  0000 C CNN
+F 2 "" H 5710 2860 50  0001 C CNN
+F 3 "" H 5710 2860 50  0001 C CNN
+	1    5710 2860
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
