@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 27
+Sheet 4 26
 Title ""
 Date ""
 Rev ""
@@ -44,41 +44,12 @@ F 3 "" H 4750 3850 50  0001 C CNN
 	1    4750 3850
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:R_US R?
-U 1 1 5F8EC38D
-P 5900 3350
-F 0 "R?" H 5968 3396 50  0000 L CNN
-F 1 "1K" H 5968 3305 50  0000 L CNN
-F 2 "" V 5940 3340 50  0001 C CNN
-F 3 "~" H 5900 3350 50  0001 C CNN
-	1    5900 3350
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR?
-U 1 1 5F8ECA21
-P 5900 3000
-F 0 "#PWR?" H 5900 2850 50  0001 C CNN
-F 1 "+5V" H 5915 3173 50  0000 C CNN
-F 2 "" H 5900 3000 50  0001 C CNN
-F 3 "" H 5900 3000 50  0001 C CNN
-	1    5900 3000
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4750 3850 4750 3650
 Wire Wire Line
 	4750 3650 5150 3650
-Wire Wire Line
-	5550 3650 5900 3650
-Wire Wire Line
-	5900 3650 5900 3500
-Wire Wire Line
-	5900 3200 5900 3000
 Text HLabel 6300 3650 2    50   Input ~ 0
 RESET
 Wire Wire Line
-	6300 3650 5900 3650
-Connection ~ 5900 3650
+	5550 3650 6300 3650
 $EndSCHEMATC
