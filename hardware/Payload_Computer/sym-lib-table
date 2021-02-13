@@ -1,4 +1,7 @@
 (sym_lib_table
   (lib (name Symbols)(type Legacy)(uri ${KIPRJMOD}/Symbols.lib)(options "")(descr ""))
   (lib (name Payload_Computer-rescue)(type Legacy)(uri ${KIPRJMOD}/Payload_Computer-rescue.lib)(options "")(descr ""))
+  (lib (name 0532610271)(type Legacy)(uri C:/Users/ckeer/Downloads/0532610271/0532610271.lib)(options "")(descr ""))
+  (lib (name SDM2U40CSP-7B)(type Legacy)(uri C:/Users/ckeer/Downloads/SDM2U40CSP-7B/SDM2U40CSP-7B.lib)(options "")(descr ""))
+  (lib (name 0532610671)(type Legacy)(uri C:/Users/ckeer/Downloads/0532610671/0532610671.lib)(options "")(descr ""))
 )

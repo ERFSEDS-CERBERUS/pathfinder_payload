@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 26
+Sheet 1 22
 Title ""
 Date ""
 Rev ""
@@ -182,7 +182,7 @@ D+_2
 Text Label 2150 3200 0    50   ~ 0
 D-_2
 Text Label 2150 3300 0    50   ~ 0
-ID_2
+PTA1_2
 Text Label 2150 3500 0    50   ~ 0
 PTA0_2
 Text Label 2150 3600 0    50   ~ 0
@@ -212,7 +212,6 @@ F12 "PTA2" I L 4100 4300 50
 F13 "PTA3" I L 4100 4400 50 
 F14 "SCL" I R 6200 3100 50 
 F15 "SDA" I R 6200 3200 50 
-F16 "VBAT" I R 6200 3450 50 
 $EndSheet
 Wire Wire Line
 	4100 3350 3250 3350
@@ -263,10 +262,11 @@ F0 "SERVOS" 50
 F1 "SERVOS.sch" 50
 $EndSheet
 $Sheet
-S 8100 5320 2100 650 
+S 8100 5320 2100 280 
 U 5FC6109B
 F0 "FANS" 50
 F1 "FANS.sch" 50
+F2 "FAN_CONTROL" I L 8100 5450 50 
 $EndSheet
 Wire Wire Line
 	8850 2250 8250 2250
@@ -311,7 +311,6 @@ F12 "PTA2" I L 4100 2150 50
 F13 "PTA3" I L 4100 2250 50 
 F14 "SCL" I R 6200 950 50 
 F15 "SDA" I R 6200 1050 50 
-F16 "VBAT" I R 6200 1300 50 
 $EndSheet
 Wire Wire Line
 	4100 1200 3250 1200
@@ -384,7 +383,7 @@ D+_1
 Text Label 2150 2050 0    50   ~ 0
 D-_1
 Text Label 2150 2150 0    50   ~ 0
-ID_1
+PTA1_1
 Text Label 2150 2350 0    50   ~ 0
 PTA0_1
 Text Label 2150 2450 0    50   ~ 0
