@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 17 22
+Sheet 18 18
 Title ""
 Date ""
 Rev ""
@@ -325,8 +325,39 @@ Wire Wire Line
 	9150 4500 9500 4500
 Text Notes 8200 4150 0    50   ~ 0
 TEENSY DATA TRANSFER LIGHT\n
-Text HLabel 5050 3850 2    50   Input ~ 0
-VBAT
 Wire Wire Line
 	5050 3850 4750 3850
+$Comp
+L power:+3.3V #PWR01806
+U 1 1 602FCEF8
+P 5050 3850
+AR Path="/6028538E/602FCEF8" Ref="#PWR01806"  Part="1" 
+AR Path="/5F84585C/602FCEF8" Ref="#PWR01706"  Part="1" 
+F 0 "#PWR01806" H 5050 3700 50  0001 C CNN
+F 1 "+3.3V" V 5065 3978 50  0000 L CNN
+F 2 "" H 5050 3850 50  0001 C CNN
+F 3 "" H 5050 3850 50  0001 C CNN
+	1    5050 3850
+	0    1    1    0   
+$EndComp
+Text HLabel 2150 3850 0    50   Input ~ 0
+PWM1
+Text HLabel 2150 3950 0    50   Input ~ 0
+PWM2
+Text HLabel 2150 4050 0    50   Input ~ 0
+PWM3
+Text HLabel 2150 4150 0    50   Input ~ 0
+PWM4
+Wire Wire Line
+	2150 3850 2450 3850
+Wire Wire Line
+	2150 3950 2450 3950
+Wire Wire Line
+	2150 4050 2450 4050
+Wire Wire Line
+	2150 4150 2450 4150
+Text HLabel 2150 4350 0    50   Input ~ 0
+D25
+Wire Wire Line
+	2150 4350 2450 4350
 $EndSCHEMATC

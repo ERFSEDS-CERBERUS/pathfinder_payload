@@ -4,4 +4,6 @@
   (lib (name 0532610271)(type Legacy)(uri C:/Users/ckeer/Downloads/0532610271/0532610271.lib)(options "")(descr ""))
   (lib (name SDM2U40CSP-7B)(type Legacy)(uri C:/Users/ckeer/Downloads/SDM2U40CSP-7B/SDM2U40CSP-7B.lib)(options "")(descr ""))
   (lib (name 0532610671)(type Legacy)(uri C:/Users/ckeer/Downloads/0532610671/0532610671.lib)(options "")(descr ""))
+  (lib (name LM2940IMP-5.0_NOPB)(type Legacy)(uri C:/Users/ckeer/Downloads/LM2940IMP-5.0_NOPB/LM2940IMP-5.0_NOPB.lib)(options "")(descr ""))
+  (lib (name 505567-0381)(type Legacy)(uri C:/Users/ckeer/Downloads/LIB_505567-0381/505567-0381/KiCad/505567-0381.lib)(options "")(descr ""))
 )
