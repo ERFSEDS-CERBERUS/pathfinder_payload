@@ -6,4 +6,5 @@
   (lib (name 0532610671)(type Legacy)(uri C:/Users/ckeer/Downloads/0532610671/0532610671.lib)(options "")(descr ""))
   (lib (name LM2940IMP-5.0_NOPB)(type Legacy)(uri C:/Users/ckeer/Downloads/LM2940IMP-5.0_NOPB/LM2940IMP-5.0_NOPB.lib)(options "")(descr ""))
   (lib (name 505567-0381)(type Legacy)(uri C:/Users/ckeer/Downloads/LIB_505567-0381/505567-0381/KiCad/505567-0381.lib)(options "")(descr ""))
+  (lib (name ZLDO1117G33TA)(type Legacy)(uri C:/Users/ckeer/Downloads/LIB_ZLDO1117G33TA/ZLDO1117G33TA/KiCad/ZLDO1117G33TA.lib)(options "")(descr ""))
 )

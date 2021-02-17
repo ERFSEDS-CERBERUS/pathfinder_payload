@@ -564,6 +564,30 @@ X S 3 100 -200 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# ZLDO1117G33TA_ZLDO1117G33TA
+#
+DEF ZLDO1117G33TA_ZLDO1117G33TA IC 0 30 Y Y 1 F N
+F0 "IC" 1250 300 50 H V L CNN
+F1 "ZLDO1117G33TA_ZLDO1117G33TA" 1250 200 50 H V L CNN
+F2 "SOT230P700X180-4N" 1250 100 50 H I L CNN
+F3 "http://docs-emea.rs-online.com/webdocs/13ed/0900766b813ed062.pdf" 1250 0 50 H I L CNN
+F4 "LDO Regulator Pos 3.3V 1A 4Pin SOT223 Diodes Inc ZLDO1117G33TA, Single Linear Voltage Regulator, 1A 3.3 V, 2%, 3-Pin SOT-223" 1250 -100 50 H I L CNN "Description"
+F5 "1.8" 1250 -200 50 H I L CNN "Height"
+F6 "Diodes Inc." 1250 -300 50 H I L CNN "Manufacturer_Name"
+F7 "ZLDO1117G33TA" 1250 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "522-ZLDO1117G33TA" 1250 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/ZLDO1117G33TA/?qs=4YT44p7w2bvlytOS2j%2F0vw%3D%3D" 1250 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "ZLDO1117G33TA" 1250 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/zldo1117g33ta/diodes-incorporated" 1250 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+P 5 0 1 6 200 100 1200 100 1200 -300 200 -300 200 100 N
+X ADJ(GND) 1 0 0 200 R 50 50 0 0 P
+X VOUT_1 2 0 -100 200 R 50 50 0 0 P
+X VIN 3 0 -200 200 R 50 50 0 0 P
+X VOUT_2 4 1400 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
 # power_+3.3V
 #
 DEF power_+3.3V #PWR 0 0 Y Y 1 F P
