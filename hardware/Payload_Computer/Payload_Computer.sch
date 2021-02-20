@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 18
+Sheet 1 19
 Title ""
 Date ""
 Rev ""
@@ -499,4 +499,25 @@ F12 "PWM2" I R 6200 1050 50
 F13 "PWM3" I R 6200 1150 50 
 F14 "PWM4" I R 6200 1250 50 
 $EndSheet
+$Sheet
+S 8850 4500 1450 450 
+U 60334804
+F0 "LED" 50
+F1 "LED.sch" 50
+F2 "LED_RED" I L 8850 4600 50 
+F3 "LED_GREEN" I L 8850 4700 50 
+F4 "LED_BLUE" I L 8850 4800 50 
+$EndSheet
+Wire Wire Line
+	8850 4600 8250 4600
+Wire Wire Line
+	8850 4700 8250 4700
+Wire Wire Line
+	8850 4800 8250 4800
+Text Label 8400 4600 0    50   ~ 0
+LED_RED
+Text Label 8400 4700 0    50   ~ 0
+LED_GREEN
+Text Label 8400 4800 0    50   ~ 0
+LED_BLUE
 $EndSCHEMATC

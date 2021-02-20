@@ -1,0 +1,99 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 19 19
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:LED_ABGR D?
+U 1 1 60334A67
+P 6100 3650
+F 0 "D?" H 6100 4147 50  0000 C CNN
+F 1 "LED_ABGR" H 6100 4056 50  0000 C CNN
+F 2 "" H 6100 3600 50  0001 C CNN
+F 3 "~" H 6100 3600 50  0001 C CNN
+	1    6100 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 60335AE2
+P 5300 3300
+F 0 "R?" V 5095 3300 50  0000 C CNN
+F 1 "R_US" V 5186 3300 50  0000 C CNN
+F 2 "" V 5340 3290 50  0001 C CNN
+F 3 "~" H 5300 3300 50  0001 C CNN
+	1    5300 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 60336395
+P 5300 3650
+F 0 "R?" V 5095 3650 50  0000 C CNN
+F 1 "R_US" V 5186 3650 50  0000 C CNN
+F 2 "" V 5340 3640 50  0001 C CNN
+F 3 "~" H 5300 3650 50  0001 C CNN
+	1    5300 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 603365E3
+P 5300 4000
+F 0 "R?" V 5095 4000 50  0000 C CNN
+F 1 "R_US" V 5186 4000 50  0000 C CNN
+F 2 "" V 5340 3990 50  0001 C CNN
+F 3 "~" H 5300 4000 50  0001 C CNN
+	1    5300 4000
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 60336B18
+P 6600 3650
+F 0 "#PWR?" H 6600 3500 50  0001 C CNN
+F 1 "+3.3V" V 6615 3778 50  0000 L CNN
+F 2 "" H 6600 3650 50  0001 C CNN
+F 3 "" H 6600 3650 50  0001 C CNN
+	1    6600 3650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5900 3450 5750 3450
+Wire Wire Line
+	5750 3450 5750 3300
+Wire Wire Line
+	5750 3300 5450 3300
+Wire Wire Line
+	5900 3650 5450 3650
+Wire Wire Line
+	5900 3850 5750 3850
+Wire Wire Line
+	5750 3850 5750 4000
+Wire Wire Line
+	5750 4000 5450 4000
+Text HLabel 4900 3300 0    50   Input ~ 0
+LED_RED
+Text HLabel 4900 3650 0    50   Input ~ 0
+LED_GREEN
+Text HLabel 4900 4000 0    50   Input ~ 0
+LED_BLUE
+Wire Wire Line
+	4900 3300 5150 3300
+Wire Wire Line
+	5150 3650 4900 3650
+Wire Wire Line
+	4900 4000 5150 4000
+Wire Wire Line
+	6300 3650 6600 3650
+$EndSCHEMATC
