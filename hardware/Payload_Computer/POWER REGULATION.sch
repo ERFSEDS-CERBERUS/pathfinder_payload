@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 9 19
+Sheet 9 21
 Title ""
 Date ""
 Rev ""
@@ -160,4 +160,41 @@ Wire Wire Line
 	3900 1850 3900 2000
 Wire Wire Line
 	3900 2500 3900 2300
+$Comp
+L Connector:Conn_01x02_Male J?
+U 1 1 603A2EB3
+P 3950 4100
+F 0 "J?" H 4058 4281 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 4058 4190 50  0000 C CNN
+F 2 "Connector_AMASS:AMASS_XT30PW-M_1x02_P2.50mm_Horizontal" H 3950 4100 50  0001 C CNN
+F 3 "~" H 3950 4100 50  0001 C CNN
+	1    3950 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+BATT #PWR?
+U 1 1 603A3817
+P 4500 4100
+F 0 "#PWR?" H 4500 3950 50  0001 C CNN
+F 1 "+BATT" V 4515 4228 50  0000 L CNN
+F 2 "" H 4500 4100 50  0001 C CNN
+F 3 "" H 4500 4100 50  0001 C CNN
+	1    4500 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 603A4237
+P 4500 4200
+F 0 "#PWR?" H 4500 3950 50  0001 C CNN
+F 1 "GND" V 4505 4072 50  0000 R CNN
+F 2 "" H 4500 4200 50  0001 C CNN
+F 3 "" H 4500 4200 50  0001 C CNN
+	1    4500 4200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4150 4100 4500 4100
+Wire Wire Line
+	4500 4200 4150 4200
 $EndSCHEMATC
