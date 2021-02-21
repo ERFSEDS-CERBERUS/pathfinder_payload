@@ -9,4 +9,5 @@
   (lib (name W25N01GVZEIG_TR)(type KiCad)(uri C:/Users/ckeer/Downloads/W25N01GVZEIG_TR)(options "")(descr ""))
   (lib (name 503398-1892)(type KiCad)(uri C:/Users/ckeer/Downloads/503398-1892)(options "")(descr ""))
   (lib (name LED)(type KiCad)(uri ${KIPRJMOD}/LED.pretty)(options "")(descr ""))
+  (lib (name USB3076-XX-X_REVC)(type KiCad)(uri C:/Users/ckeer/Downloads/USB3076-XX-X_REVC)(options "")(descr ""))
 )

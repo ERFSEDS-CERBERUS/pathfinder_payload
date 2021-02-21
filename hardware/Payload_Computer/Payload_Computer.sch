@@ -604,4 +604,14 @@ Wire Notes Line
 	3650 6450 3650 7300
 Text Notes 4600 7400 0    50   ~ 0
 SD_CARD\n
+Wire Notes Line
+	3800 600  3800 4300
+Wire Notes Line
+	3800 4300 7750 4300
+Wire Notes Line
+	7750 4300 7750 600 
+Wire Notes Line
+	7750 600  3800 600 
+Text Notes 5350 4400 0    50   ~ 0
+MICROCONTROLLERS\n
 $EndSCHEMATC

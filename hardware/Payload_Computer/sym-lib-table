@@ -9,4 +9,5 @@
   (lib (name ZLDO1117G33TA)(type Legacy)(uri C:/Users/ckeer/Downloads/LIB_ZLDO1117G33TA/ZLDO1117G33TA/KiCad/ZLDO1117G33TA.lib)(options "")(descr ""))
   (lib (name W25N01GVZEIG_TR)(type Legacy)(uri C:/Users/ckeer/Downloads/W25N01GVZEIG_TR/W25N01GVZEIG_TR.lib)(options "")(descr ""))
   (lib (name 503398-1892)(type Legacy)(uri C:/Users/ckeer/Downloads/503398-1892/503398-1892.lib)(options "")(descr ""))
+  (lib (name USB3076-XX-X_REVC)(type Legacy)(uri "C:/Users/ckeer/Downloads/USB3076-XX-X_REVC (1)/USB3076-XX-X_REVC.lib")(options "")(descr ""))
 )
