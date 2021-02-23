@@ -42,7 +42,7 @@ F 3 "" H 7000 3050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	6850 3050 7000 3050
+	6850 3050 6900 3050
 $Comp
 L power:GND #PWR0109
 U 1 1 6035554C
@@ -98,4 +98,31 @@ Wire Wire Line
 	6850 3550 7000 3550
 Wire Wire Line
 	7000 3650 6850 3650
+$Comp
+L Device:C C?
+U 1 1 6035BD0E
+P 6900 2900
+F 0 "C?" H 7015 2946 50  0000 L CNN
+F 1 "100nF" H 7015 2855 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 6938 2750 50  0001 C CNN
+F 3 "~" H 6900 2900 50  0001 C CNN
+	1    6900 2900
+	1    0    0    -1  
+$EndComp
+Connection ~ 6900 3050
+Wire Wire Line
+	6900 3050 7000 3050
+$Comp
+L power:GND #PWR?
+U 1 1 6035C307
+P 6900 2600
+F 0 "#PWR?" H 6900 2350 50  0001 C CNN
+F 1 "GND" V 6905 2472 50  0000 R CNN
+F 2 "" H 6900 2600 50  0001 C CNN
+F 3 "" H 6900 2600 50  0001 C CNN
+	1    6900 2600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6900 2750 6900 2600
 $EndSCHEMATC

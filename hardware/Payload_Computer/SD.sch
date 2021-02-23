@@ -59,7 +59,7 @@ F 3 "" H 7150 2900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	6950 2900 7150 2900
+	6950 2900 7100 2900
 Text HLabel 7150 3200 2    50   Input ~ 0
 SCLK
 Wire Wire Line
@@ -79,4 +79,31 @@ Wire Wire Line
 NoConn ~ 6950 3500
 NoConn ~ 6950 3400
 NoConn ~ 6950 3700
+$Comp
+L Device:C C?
+U 1 1 6035A6C2
+P 7100 2750
+F 0 "C?" H 7215 2796 50  0000 L CNN
+F 1 "100nF" H 7215 2705 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 7138 2600 50  0001 C CNN
+F 3 "~" H 7100 2750 50  0001 C CNN
+	1    7100 2750
+	1    0    0    -1  
+$EndComp
+Connection ~ 7100 2900
+Wire Wire Line
+	7100 2900 7150 2900
+$Comp
+L power:GND #PWR?
+U 1 1 6035AD01
+P 7100 2450
+F 0 "#PWR?" H 7100 2200 50  0001 C CNN
+F 1 "GND" V 7105 2322 50  0000 R CNN
+F 2 "" H 7100 2450 50  0001 C CNN
+F 3 "" H 7100 2450 50  0001 C CNN
+	1    7100 2450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7100 2600 7100 2450
 $EndSCHEMATC
