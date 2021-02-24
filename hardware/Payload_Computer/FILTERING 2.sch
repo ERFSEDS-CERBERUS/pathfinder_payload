@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 19 21
+Sheet 13 21
 Title ""
 Date ""
 Rev ""
@@ -37,19 +37,6 @@ F 1 "100 nF" H 6465 3705 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 6388 3600 50  0001 C CNN
 F 3 "~" H 6350 3750 50  0001 C CNN
 	1    6350 3750
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR0141
-U 1 1 5F9988F7
-P 5750 3200
-AR Path="/5F99419C/5F9988F7" Ref="#PWR0141"  Part="1" 
-AR Path="/602AB697/5F9988F7" Ref="#PWR01901"  Part="1" 
-F 0 "#PWR01901" H 5750 3050 50  0001 C CNN
-F 1 "+5V" H 5765 3373 50  0000 C CNN
-F 2 "" H 5750 3200 50  0001 C CNN
-F 3 "" H 5750 3200 50  0001 C CNN
-	1    5750 3200
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -129,4 +116,17 @@ Wire Wire Line
 Wire Wire Line
 	4650 4000 5200 4000
 Connection ~ 5200 4000
+$Comp
+L power:+3.3V #PWR?
+U 1 1 603751C8
+P 5750 3200
+AR Path="/5F99419C/603751C8" Ref="#PWR?"  Part="1" 
+AR Path="/602AB697/603751C8" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5750 3050 50  0001 C CNN
+F 1 "+3.3V" H 5765 3373 50  0000 C CNN
+F 2 "" H 5750 3200 50  0001 C CNN
+F 3 "" H 5750 3200 50  0001 C CNN
+	1    5750 3200
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
