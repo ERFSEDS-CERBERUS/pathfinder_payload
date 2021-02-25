@@ -178,9 +178,9 @@ Wire Wire Line
 Wire Wire Line
 	1800 3800 2550 3800
 Text Label 2150 3100 0    50   ~ 0
-D+_2
+D2_+
 Text Label 2150 3200 0    50   ~ 0
-D-_2
+D2_-
 Text Label 2150 3300 0    50   ~ 0
 PTA1_2
 Text Label 2150 3500 0    50   ~ 0
@@ -204,9 +204,9 @@ Wire Wire Line
 Wire Wire Line
 	4850 3700 4000 3700
 Text Label 4350 3450 0    50   ~ 0
-D+_2
+D2_+
 Text Label 4350 3550 0    50   ~ 0
-D-_2
+D2_-
 Wire Wire Line
 	4850 3800 4000 3800
 Wire Wire Line
@@ -275,9 +275,9 @@ Wire Wire Line
 Wire Wire Line
 	4850 1850 4000 1850
 Text Label 4350 1600 0    50   ~ 0
-D+_1
+D1_+
 Text Label 4350 1700 0    50   ~ 0
-D-_1
+D1_-
 Wire Wire Line
 	4850 1950 4000 1950
 Wire Wire Line
@@ -323,9 +323,9 @@ Wire Wire Line
 Wire Wire Line
 	1800 2650 2550 2650
 Text Label 2150 1950 0    50   ~ 0
-D+_1
+D1_+
 Text Label 2150 2050 0    50   ~ 0
-D-_1
+D1_-
 Text Label 2150 2150 0    50   ~ 0
 PTA1_1
 Text Label 2150 2350 0    50   ~ 0
