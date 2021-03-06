@@ -71,4 +71,10 @@ Text Label 1850 3590 0    50   ~ 0
 SCK
 Text Label 1870 3300 0    50   ~ 0
 MISO
+Text HLabel 10050 3300 2    50   Input ~ 0
+MISO
+Text HLabel 10050 3150 2    50   Input ~ 0
+MOSI
+Text HLabel 10050 3450 2    50   Input ~ 0
+SCK
 $EndSCHEMATC
