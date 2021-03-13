@@ -346,7 +346,7 @@ Text HLabel 2150 3950 0    50   Input ~ 0
 PWM2
 Text HLabel 2150 4050 0    50   Input ~ 0
 PWM3
-Text HLabel 2150 4150 0    50   Input ~ 0
+Text HLabel 2150 2350 0    50   Input ~ 0
 PWM4
 Wire Wire Line
 	2150 3850 2450 3850
@@ -355,7 +355,7 @@ Wire Wire Line
 Wire Wire Line
 	2150 4050 2450 4050
 Wire Wire Line
-	2150 4150 2450 4150
+	2150 2350 2450 2350
 Text HLabel 2150 4350 0    50   Input ~ 0
 D25
 Wire Wire Line
@@ -372,4 +372,12 @@ Wire Wire Line
 	2150 3550 2450 3550
 Wire Wire Line
 	2150 3450 2450 3450
+Text HLabel 2150 5050 0    50   Input ~ 0
+FLASH_CS
+Wire Wire Line
+	2150 5050 2450 5050
+Text HLabel 2150 3650 0    50   Input ~ 0
+SD_FLASH
+Wire Wire Line
+	2150 3650 2450 3650
 $EndSCHEMATC

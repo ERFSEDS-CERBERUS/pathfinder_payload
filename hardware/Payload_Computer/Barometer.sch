@@ -49,32 +49,26 @@ F3 "CSB" I L 2220 4160 50
 F4 "MISO" I L 2220 3300 50 
 F5 "MOSI" I L 2220 3870 50 
 $EndSheet
-Wire Wire Line
-	9150 3150 10050 3150
-Wire Wire Line
-	9150 3300 10050 3300
-Wire Wire Line
-	9150 3450 10050 3450
 Text HLabel 10050 3600 2    50   Input ~ 0
 CS_BARO2
-Wire Wire Line
-	9150 3600 10050 3600
-Text Label 9500 3150 0    50   ~ 0
-MOSI
-Text Label 9500 3300 0    50   ~ 0
-MISO
-Text Label 9500 3450 0    50   ~ 0
-SCK
 Text Label 1850 3870 0    50   ~ 0
 MOSI
 Text Label 1850 3590 0    50   ~ 0
 SCK
 Text Label 1870 3300 0    50   ~ 0
 MISO
-Text HLabel 10050 3300 2    50   Input ~ 0
-MISO
 Text HLabel 10050 3150 2    50   Input ~ 0
-MOSI
+MOSI_2
 Text HLabel 10050 3450 2    50   Input ~ 0
-SCK
+SCK_2
+Text HLabel 10050 3300 2    50   Input ~ 0
+MISO_2
+Wire Wire Line
+	9160 3300 10050 3300
+Wire Wire Line
+	10050 3150 9160 3150
+Wire Wire Line
+	10050 3450 9160 3450
+Wire Wire Line
+	10050 3600 9160 3600
 $EndSCHEMATC
