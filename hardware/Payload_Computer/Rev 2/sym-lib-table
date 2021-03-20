@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name Rev2symbols)(type Legacy)(uri ${KIPRJMOD}/Rev2symbols.lib)(options "")(descr ""))
+  (lib (name 2021-03-20_20-22-22)(type Legacy)(uri C:/Users/ckeer/Downloads/ul_MIC2915150WUTR/KiCAD/2021-03-20_20-22-22/2021-03-20_20-22-22.lib)(options "")(descr ""))
+)

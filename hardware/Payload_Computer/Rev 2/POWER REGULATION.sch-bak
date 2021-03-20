@@ -1,0 +1,166 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:+5V #PWR?
+U 1 1 6056925C
+P 7250 1600
+F 0 "#PWR?" H 7250 1450 50  0001 C CNN
+F 1 "+5V" V 7265 1728 50  0000 L CNN
+F 2 "" H 7250 1600 50  0001 C CNN
+F 3 "" H 7250 1600 50  0001 C CNN
+	1    7250 1600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6900 1600 7250 1600
+NoConn ~ 6900 1500
+$Comp
+L power:+BATT #PWR?
+U 1 1 6056987F
+P 4400 1500
+F 0 "#PWR?" H 4400 1350 50  0001 C CNN
+F 1 "+BATT" V 4415 1627 50  0000 L CNN
+F 2 "" H 4400 1500 50  0001 C CNN
+F 3 "" H 4400 1500 50  0001 C CNN
+	1    4400 1500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4400 1500 4500 1500
+Wire Wire Line
+	4700 1400 4500 1400
+Wire Wire Line
+	4500 1400 4500 1500
+Connection ~ 4500 1500
+Wire Wire Line
+	4500 1500 4700 1500
+Wire Wire Line
+	4400 1600 4700 1600
+$Comp
+L power:GND #PWR?
+U 1 1 60568D35
+P 4400 1600
+F 0 "#PWR?" H 4400 1350 50  0001 C CNN
+F 1 "GND" V 4405 1472 50  0000 R CNN
+F 2 "" H 4400 1600 50  0001 C CNN
+F 3 "" H 4400 1600 50  0001 C CNN
+	1    4400 1600
+	0    1    1    0   
+$EndComp
+$Comp
+L 2021-03-20_20-22-22:MIC29151-5.0WU-TR U?
+U 1 1 60567CDA
+P 4700 1400
+F 0 "U?" H 5800 1788 60  0000 C CNN
+F 1 "MIC29151-5.0WU-TR" H 5800 1682 60  0000 C CNN
+F 2 "footprints:MIC29151-5.0WU-TR" H 5800 1640 60  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/MIC2915x-30x-50x-75x-High-Current-Low-Dropout-Regulators-DS20005685B.pdf" H 5800 1682 60  0001 C CNN
+F 4 "MIC29151-5.0WU-TR" H 4700 1400 50  0001 C CNN "DIGIKEY"
+	1    4700 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6056AAC6
+P 7300 1400
+F 0 "#PWR?" H 7300 1150 50  0001 C CNN
+F 1 "GND" V 7305 1272 50  0000 R CNN
+F 2 "" H 7300 1400 50  0001 C CNN
+F 3 "" H 7300 1400 50  0001 C CNN
+	1    7300 1400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6900 1400 7300 1400
+Text Notes 5500 850  0    50   ~ 0
+5V REGULATOR\n
+Wire Wire Line
+	7900 950  7900 1150
+Wire Wire Line
+	7900 1750 7900 1450
+$Comp
+L power:GND #PWR?
+U 1 1 6056FC7A
+P 7900 1750
+F 0 "#PWR?" H 7900 1500 50  0001 C CNN
+F 1 "GND" V 7905 1622 50  0000 R CNN
+F 2 "" H 7900 1750 50  0001 C CNN
+F 3 "" H 7900 1750 50  0001 C CNN
+	1    7900 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C?
+U 1 1 6056FC80
+P 7900 1300
+F 0 "C?" H 8015 1346 50  0000 L CNN
+F 1 "10uF" H 8015 1255 50  0000 L CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-6032-20_AVX-F_Pad2.25x2.35mm_HandSolder" H 7900 1300 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/40002/293d.pdf" H 7900 1300 50  0001 C CNN
+F 4 "718-1958-1-ND" H 7900 1300 50  0001 C CNN "DIGIKEY"
+	1    7900 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 6056FE27
+P 7900 950
+F 0 "#PWR?" H 7900 800 50  0001 C CNN
+F 1 "+5V" H 7915 1123 50  0000 C CNN
+F 2 "" H 7900 950 50  0001 C CNN
+F 3 "" H 7900 950 50  0001 C CNN
+	1    7900 950 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 900  3650 1100
+Wire Wire Line
+	3650 1700 3650 1400
+$Comp
+L power:GND #PWR?
+U 1 1 60571464
+P 3650 1700
+F 0 "#PWR?" H 3650 1450 50  0001 C CNN
+F 1 "GND" V 3655 1572 50  0000 R CNN
+F 2 "" H 3650 1700 50  0001 C CNN
+F 3 "" H 3650 1700 50  0001 C CNN
+	1    3650 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C?
+U 1 1 6057146B
+P 3650 1250
+F 0 "C?" H 3765 1296 50  0000 L CNN
+F 1 "10uF" H 3765 1205 50  0000 L CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-6032-20_AVX-F_Pad2.25x2.35mm_HandSolder" H 3650 1250 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/40002/293d.pdf" H 3650 1250 50  0001 C CNN
+F 4 "718-1958-1-ND" H 3650 1250 50  0001 C CNN "DIGIKEY"
+	1    3650 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+BATT #PWR?
+U 1 1 6057154B
+P 3650 900
+F 0 "#PWR?" H 3650 750 50  0001 C CNN
+F 1 "+BATT" H 3665 1073 50  0000 C CNN
+F 2 "" H 3650 900 50  0001 C CNN
+F 3 "" H 3650 900 50  0001 C CNN
+	1    3650 900 
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

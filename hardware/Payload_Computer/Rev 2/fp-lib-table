@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "Rev 2")(type KiCad)(uri "${KIPRJMOD}/Rev 2.pretty")(options "")(descr ""))
+  (lib (name footprints)(type KiCad)(uri C:/Users/ckeer/Downloads/ul_MIC2915150WUTR/KiCAD/2021-03-20_20-22-22/footprints.pretty)(options "")(descr ""))
+)
