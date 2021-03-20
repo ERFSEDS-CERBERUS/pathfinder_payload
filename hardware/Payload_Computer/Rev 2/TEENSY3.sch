@@ -1,0 +1,79 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L teensy:Teensy3.2 U201
+U 1 1 60567931
+P 5950 3750
+F 0 "U201" H 5950 5493 60  0000 C CNN
+F 1 "Teensy3.2" H 5950 5387 60  0000 C CNN
+F 2 "teensy:Teensy30_31_32_LC" H 5950 5281 60  0000 C CNN
+F 3 "" H 5950 3000 60  0000 C CNN
+	1    5950 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 60569757
+P 4500 2400
+F 0 "#PWR0101" H 4500 2150 50  0001 C CNN
+F 1 "GND" V 4505 2272 50  0000 R CNN
+F 2 "" H 4500 2400 50  0001 C CNN
+F 3 "" H 4500 2400 50  0001 C CNN
+	1    4500 2400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4500 2400 4950 2400
+$Comp
+L power:GND #PWR0102
+U 1 1 6056A687
+P 4500 4000
+F 0 "#PWR0102" H 4500 3750 50  0001 C CNN
+F 1 "GND" V 4505 3872 50  0000 R CNN
+F 2 "" H 4500 4000 50  0001 C CNN
+F 3 "" H 4500 4000 50  0001 C CNN
+	1    4500 4000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4500 4000 4950 4000
+$Comp
+L power:GND #PWR0103
+U 1 1 6056AB86
+P 7400 4800
+F 0 "#PWR0103" H 7400 4550 50  0001 C CNN
+F 1 "GND" V 7405 4672 50  0000 R CNN
+F 2 "" H 7400 4800 50  0001 C CNN
+F 3 "" H 7400 4800 50  0001 C CNN
+	1    7400 4800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7400 4800 6950 4800
+$Comp
+L power:GND #PWR0104
+U 1 1 6056AF17
+P 7400 3900
+F 0 "#PWR0104" H 7400 3650 50  0001 C CNN
+F 1 "GND" V 7405 3772 50  0000 R CNN
+F 2 "" H 7400 3900 50  0001 C CNN
+F 3 "" H 7400 3900 50  0001 C CNN
+	1    7400 3900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7400 3900 6950 3900
+$EndSCHEMATC
