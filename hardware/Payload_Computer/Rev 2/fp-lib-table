@@ -1,4 +1,7 @@
 (fp_lib_table
   (lib (name "Rev 2")(type KiCad)(uri "${KIPRJMOD}/Rev 2.pretty")(options "")(descr ""))
   (lib (name footprints)(type KiCad)(uri C:/Users/ckeer/Downloads/ul_MIC2915150WUTR/KiCAD/2021-03-20_20-22-22/footprints.pretty)(options "")(descr ""))
+  (lib (name LT1963AEST-3)(type KiCad)(uri C:/Users/ckeer/Downloads/LT1963AEST-3.3_PBF)(options "")(descr ""))
+  (lib (name DIOM505270X240)(type KiCad)(uri C:/Users/ckeer/Downloads/DIOM505270X240)(options "")(descr ""))
+  (lib (name footprints-diode)(type KiCad)(uri C:/Users/ckeer/Downloads/ul_B320B13/KiCAD/2021-03-23_04-45-24/footprints.pretty)(options "")(descr ""))
 )
