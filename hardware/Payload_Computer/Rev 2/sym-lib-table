@@ -5,4 +5,5 @@
   (lib (name LT1963AEST-3.3_PBF)(type Legacy)(uri C:/Users/ckeer/Downloads/LT1963AEST-3.3_PBF/LT1963AEST-3.3_PBF.lib)(options "")(descr ""))
   (lib (name 2021-03-23_04-45-24)(type Legacy)(uri C:/Users/ckeer/Downloads/ul_B320B13/KiCAD/2021-03-23_04-45-24/2021-03-23_04-45-24.lib)(options "")(descr ""))
   (lib (name 2021-04-03_19-33-36)(type Legacy)(uri C:/Users/ckeer/Downloads/ul_5031821852/KiCAD/2021-04-03_19-33-36/2021-04-03_19-33-36.lib)(options "")(descr ""))
+  (lib (name 2021-04-03_19-45-01)(type Legacy)(uri C:/Users/ckeer/Downloads/ul_W25N01GVZEIG/KiCAD/2021-04-03_19-45-01/2021-04-03_19-45-01.lib)(options "")(descr ""))
 )

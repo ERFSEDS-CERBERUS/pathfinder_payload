@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 6
+Sheet 1 7
 Title ""
 Date ""
 Rev ""
@@ -123,9 +123,35 @@ SDA
 Text Label 8900 2100 0    50   ~ 0
 SCL
 $Sheet
-S 9350 2600 1500 450 
+S 9350 2550 1500 650 
 U 606A89B0
 F0 "SD_CARD" 50
 F1 "SD_CARD.sch" 50
+F2 "SCK" I L 9350 2950 50 
+F3 "CS_SD" I L 9350 3100 50 
+F4 "MOSI" I L 9350 2650 50 
+F5 "MISO" I L 9350 2800 50 
+$EndSheet
+Wire Wire Line
+	9350 2650 8600 2650
+Wire Wire Line
+	9350 2800 8600 2800
+Wire Wire Line
+	9350 2950 8600 2950
+Wire Wire Line
+	9350 3100 8600 3100
+Text Label 8900 3100 0    50   ~ 0
+CS_SD
+Text Label 8900 2950 0    50   ~ 0
+SCK
+Text Label 8900 2800 0    50   ~ 0
+MISO
+Text Label 8900 2650 0    50   ~ 0
+MOSI
+$Sheet
+S 9350 3450 1500 750 
+U 6068C99D
+F0 "FLASH CHIP" 50
+F1 "FLASH CHIP.sch" 50
 $EndSheet
 $EndSCHEMATC

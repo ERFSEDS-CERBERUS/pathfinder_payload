@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 6
+Sheet 1 7
 Title ""
 Date ""
 Rev ""
@@ -20,6 +20,9 @@ F0 "TEENSY3.2" 50
 F1 "TEENSY3.sch" 50
 F2 "SCL" I R 6550 1750 50 
 F3 "SDA" I R 6550 1850 50 
+F4 "SCK" I R 6550 2100 50 
+F5 "MOSI" I R 6550 2200 50 
+F6 "MISO" I R 6550 2300 50 
 $EndSheet
 $Comp
 L Rev2symbols:Center_Hole H101
@@ -148,4 +151,42 @@ Text Label 8900 2800 0    50   ~ 0
 MISO
 Text Label 8900 2650 0    50   ~ 0
 MOSI
+$Sheet
+S 9350 3450 1500 650 
+U 6068C99D
+F0 "FLASH CHIP" 50
+F1 "FLASH CHIP.sch" 50
+F2 "SCK" I L 9350 3850 50 
+F3 "CS_FLASH" I L 9350 4000 50 
+F4 "MISO" I L 9350 3700 50 
+F5 "MOSI" I L 9350 3550 50 
+$EndSheet
+Wire Wire Line
+	9350 3550 8600 3550
+Wire Wire Line
+	9350 3700 8600 3700
+Wire Wire Line
+	9350 3850 8600 3850
+Wire Wire Line
+	9350 4000 8600 4000
+Text Label 8900 3550 0    50   ~ 0
+MOSI
+Text Label 8900 3700 0    50   ~ 0
+MISO
+Text Label 8900 3850 0    50   ~ 0
+SCK
+Text Label 8900 4000 0    50   ~ 0
+CS_FLASH
+Wire Wire Line
+	6550 2100 7200 2100
+Wire Wire Line
+	6550 2200 7200 2200
+Wire Wire Line
+	6550 2300 7200 2300
+Text Label 6800 2100 0    50   ~ 0
+SCK
+Text Label 6800 2200 0    50   ~ 0
+MOSI
+Text Label 6800 2300 0    50   ~ 0
+MISO
 $EndSCHEMATC

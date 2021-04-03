@@ -5,4 +5,5 @@
   (lib (name DIOM505270X240)(type KiCad)(uri C:/Users/ckeer/Downloads/DIOM505270X240)(options "")(descr ""))
   (lib (name footprints-diode)(type KiCad)(uri C:/Users/ckeer/Downloads/ul_B320B13/KiCAD/2021-03-23_04-45-24/footprints.pretty)(options "")(descr ""))
   (lib (name SD_CARD)(type KiCad)(uri C:/Users/ckeer/Downloads/ul_5031821852/KiCAD/2021-04-03_19-33-36/footprints.pretty)(options "")(descr ""))
+  (lib (name FLASH)(type KiCad)(uri C:/Users/ckeer/Downloads/ul_W25N01GVZEIG/KiCAD/2021-04-03_19-45-01/footprints.pretty)(options "")(descr ""))
 )
