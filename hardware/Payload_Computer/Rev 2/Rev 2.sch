@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 5
+Sheet 1 6
 Title ""
 Date ""
 Rev ""
@@ -67,6 +67,8 @@ S 9350 1800 1500 400
 U 6060BC6F
 F0 "BNO055" 50
 F1 "BNO055.sch" 50
+F2 "SCL" I L 9350 2100 50 
+F3 "SDA" I L 9350 1950 50 
 $EndSheet
 $Comp
 L Mechanical:MountingHole H105
@@ -112,4 +114,38 @@ F 3 "~" H 5450 4500 50  0001 C CNN
 	1    5450 4500
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	9350 1950 8600 1950
+Wire Wire Line
+	9350 2100 8600 2100
+Text Label 8900 1950 0    50   ~ 0
+SDA
+Text Label 8900 2100 0    50   ~ 0
+SCL
+$Sheet
+S 9350 2550 1500 650 
+U 606A89B0
+F0 "SD_CARD" 50
+F1 "SD_CARD.sch" 50
+F2 "SCK" I L 9350 2950 50 
+F3 "CS_SD" I L 9350 3100 50 
+F4 "MOSI" I L 9350 2650 50 
+F5 "MISO" I L 9350 2800 50 
+$EndSheet
+Wire Wire Line
+	9350 2650 8600 2650
+Wire Wire Line
+	9350 2800 8600 2800
+Wire Wire Line
+	9350 2950 8600 2950
+Wire Wire Line
+	9350 3100 8600 3100
+Text Label 8900 3100 0    50   ~ 0
+CS_SD
+Text Label 8900 2950 0    50   ~ 0
+SCK
+Text Label 8900 2800 0    50   ~ 0
+MISO
+Text Label 8900 2650 0    50   ~ 0
+MOSI
 $EndSCHEMATC

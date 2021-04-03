@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 5
+Sheet 1 6
 Title ""
 Date ""
 Rev ""
@@ -67,5 +67,65 @@ S 9350 1800 1500 400
 U 6060BC6F
 F0 "BNO055" 50
 F1 "BNO055.sch" 50
+F2 "SCL" I L 9350 2100 50 
+F3 "SDA" I L 9350 1950 50 
+$EndSheet
+$Comp
+L Mechanical:MountingHole H105
+U 1 1 606125CD
+P 5450 5100
+F 0 "H105" H 5550 5146 50  0000 L CNN
+F 1 "MountingHole" H 5550 5055 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.5mm" H 5450 5100 50  0001 C CNN
+F 3 "~" H 5450 5100 50  0001 C CNN
+	1    5450 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H104
+U 1 1 60612A94
+P 5450 4900
+F 0 "H104" H 5550 4946 50  0000 L CNN
+F 1 "MountingHole" H 5550 4855 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.5mm" H 5450 4900 50  0001 C CNN
+F 3 "~" H 5450 4900 50  0001 C CNN
+	1    5450 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H103
+U 1 1 60612FC8
+P 5450 4700
+F 0 "H103" H 5550 4746 50  0000 L CNN
+F 1 "MountingHole" H 5550 4655 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.5mm" H 5450 4700 50  0001 C CNN
+F 3 "~" H 5450 4700 50  0001 C CNN
+	1    5450 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H102
+U 1 1 6061316B
+P 5450 4500
+F 0 "H102" H 5550 4546 50  0000 L CNN
+F 1 "MountingHole" H 5550 4455 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.5mm" H 5450 4500 50  0001 C CNN
+F 3 "~" H 5450 4500 50  0001 C CNN
+	1    5450 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9350 1950 8600 1950
+Wire Wire Line
+	9350 2100 8600 2100
+Text Label 8900 1950 0    50   ~ 0
+SDA
+Text Label 8900 2100 0    50   ~ 0
+SCL
+$Sheet
+S 9350 2600 1500 450 
+U 606A89B0
+F0 "SD_CARD" 50
+F1 "SD_CARD.sch" 50
 $EndSheet
 $EndSCHEMATC
