@@ -109,4 +109,12 @@ Wire Wire Line
 	4500 3700 4950 3700
 Wire Wire Line
 	4500 4300 4950 4300
+Text HLabel 4500 4400 0    50   Input ~ 0
+SD_CS
+Text HLabel 4500 4500 0    50   Input ~ 0
+FLASH_CS
+Wire Wire Line
+	4500 4400 4950 4400
+Wire Wire Line
+	4950 4500 4500 4500
 $EndSCHEMATC

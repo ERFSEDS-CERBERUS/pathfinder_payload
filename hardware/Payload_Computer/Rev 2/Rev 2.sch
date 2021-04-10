@@ -23,6 +23,8 @@ F3 "SDA" I R 6550 1850 50
 F4 "SCK" I R 6550 2100 50 
 F5 "MOSI" I R 6550 2200 50 
 F6 "MISO" I R 6550 2300 50 
+F7 "SD_CS" I R 6550 2500 50 
+F8 "FLASH_CS" I R 6550 2600 50 
 $EndSheet
 $Comp
 L Rev2symbols:Center_Hole H101
@@ -189,4 +191,12 @@ Text Label 6800 2200 0    50   ~ 0
 MOSI
 Text Label 6800 2300 0    50   ~ 0
 MISO
+Wire Wire Line
+	6550 2500 7200 2500
+Wire Wire Line
+	6550 2600 7200 2600
+Text Label 6800 2500 0    50   ~ 0
+CS_SD
+Text Label 6750 2600 0    50   ~ 0
+CS_FLASH
 $EndSCHEMATC
